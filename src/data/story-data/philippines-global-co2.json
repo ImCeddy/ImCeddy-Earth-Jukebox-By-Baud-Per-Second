@@ -1,0 +1,3457 @@
+{
+  "locationId": "philippines-global-co2",
+  "metric": "monthly_mean_global_co2_mole_fraction",
+  "unit": "ppm CO2",
+  "narrationLabel": "globally averaged atmospheric CO2 concentration",
+  "source": {
+    "mission": "NOAA Global Monitoring Laboratory",
+    "product": "Globally averaged marine-surface monthly mean CO2 mole fraction from a global air-sampling network; source average and uncertainty",
+    "url": "https://gml.noaa.gov/ccgg/trends/global.html"
+  },
+  "references": [
+    {
+      "mission": "NOAA Global Monitoring Laboratory",
+      "product": "Global monthly mean CO2 record, data, and calculation method",
+      "url": "https://gml.noaa.gov/ccgg/trends/global.html"
+    },
+    {
+      "mission": "NASA Goddard Space Flight Center",
+      "product": "DYAMOND Global Carbon Dioxide: GEOS model visualization for January-March 2020",
+      "url": "https://svs.gsfc.nasa.gov/5196/"
+    }
+  ],
+  "scaleNote": "The Philippines marker is a country-level story reference, not the location of a CO2 sensor. The plotted monthly values are NOAA's globally averaged dry-air CO2 mole fractions from marine surface sites in a global air-sampling network; they are not Philippine or city-level concentrations, emissions, or satellite retrievals. This story covers CO2 only, not every greenhouse gas. Values use the source's monthly average and retain its reported global-mean uncertainty; that uncertainty is not a local spatial range. Monthly seasonal variation is real and is not removed. NOAA notes that the latest year's values are preliminary and may be revised. NASA's DYAMOND visualization is a GEOS model of January-March 2020 atmospheric CO2, not a local measurement or the source of this time series.",
+  "sampling": {
+    "method": "Monthly globally averaged marine-surface CO2 mole fraction from NOAA GML's globally distributed air-sampling network; values use the CSV average column.",
+    "missingMonths": [],
+    "uncertainty": "Each observation retains NOAA's average_unc value in ppm. The latest year's record is preliminary and may be revised."
+  },
+  "series": [
+    {
+      "year": 1979,
+      "month": 1,
+      "value": 336.56,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1979,
+      "month": 2,
+      "value": 337.29,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1979,
+      "month": 3,
+      "value": 337.88,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1979,
+      "month": 4,
+      "value": 338.32,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1979,
+      "month": 5,
+      "value": 338.26,
+      "uncertainty": 0.04
+    },
+    {
+      "year": 1979,
+      "month": 6,
+      "value": 337.38,
+      "uncertainty": 0.16
+    },
+    {
+      "year": 1979,
+      "month": 7,
+      "value": 335.56,
+      "uncertainty": 0.26
+    },
+    {
+      "year": 1979,
+      "month": 8,
+      "value": 334.36,
+      "uncertainty": 0.28
+    },
+    {
+      "year": 1979,
+      "month": 9,
+      "value": 335.02,
+      "uncertainty": 0.2
+    },
+    {
+      "year": 1979,
+      "month": 10,
+      "value": 336.36,
+      "uncertainty": 0.21
+    },
+    {
+      "year": 1979,
+      "month": 11,
+      "value": 337.36,
+      "uncertainty": 0.16
+    },
+    {
+      "year": 1979,
+      "month": 12,
+      "value": 337.89,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 1980,
+      "month": 1,
+      "value": 338.58,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 1980,
+      "month": 2,
+      "value": 339.26,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1980,
+      "month": 3,
+      "value": 339.6,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 1980,
+      "month": 4,
+      "value": 340.0,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 1980,
+      "month": 5,
+      "value": 340.44,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1980,
+      "month": 6,
+      "value": 339.99,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1980,
+      "month": 7,
+      "value": 338.44,
+      "uncertainty": 0.16
+    },
+    {
+      "year": 1980,
+      "month": 8,
+      "value": 337.22,
+      "uncertainty": 0.18
+    },
+    {
+      "year": 1980,
+      "month": 9,
+      "value": 337.05,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 1980,
+      "month": 10,
+      "value": 337.82,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 1980,
+      "month": 11,
+      "value": 338.93,
+      "uncertainty": 0.06
+    },
+    {
+      "year": 1980,
+      "month": 12,
+      "value": 339.63,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1981,
+      "month": 1,
+      "value": 340.18,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1981,
+      "month": 2,
+      "value": 340.75,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1981,
+      "month": 3,
+      "value": 341.38,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1981,
+      "month": 4,
+      "value": 341.68,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 1981,
+      "month": 5,
+      "value": 341.43,
+      "uncertainty": 0.06
+    },
+    {
+      "year": 1981,
+      "month": 6,
+      "value": 340.63,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1981,
+      "month": 7,
+      "value": 339.23,
+      "uncertainty": 0.13
+    },
+    {
+      "year": 1981,
+      "month": 8,
+      "value": 338.08,
+      "uncertainty": 0.15
+    },
+    {
+      "year": 1981,
+      "month": 9,
+      "value": 337.97,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1981,
+      "month": 10,
+      "value": 339.07,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1981,
+      "month": 11,
+      "value": 340.17,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1981,
+      "month": 12,
+      "value": 340.74,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1982,
+      "month": 1,
+      "value": 341.36,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1982,
+      "month": 2,
+      "value": 341.95,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1982,
+      "month": 3,
+      "value": 342.23,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 1982,
+      "month": 4,
+      "value": 342.52,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 1982,
+      "month": 5,
+      "value": 342.37,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 1982,
+      "month": 6,
+      "value": 341.49,
+      "uncertainty": 0.03
+    },
+    {
+      "year": 1982,
+      "month": 7,
+      "value": 339.75,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 1982,
+      "month": 8,
+      "value": 338.11,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1982,
+      "month": 9,
+      "value": 338.16,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 1982,
+      "month": 10,
+      "value": 339.61,
+      "uncertainty": 0.05
+    },
+    {
+      "year": 1982,
+      "month": 11,
+      "value": 340.95,
+      "uncertainty": 0.06
+    },
+    {
+      "year": 1982,
+      "month": 12,
+      "value": 341.77,
+      "uncertainty": 0.06
+    },
+    {
+      "year": 1983,
+      "month": 1,
+      "value": 342.37,
+      "uncertainty": 0.05
+    },
+    {
+      "year": 1983,
+      "month": 2,
+      "value": 342.74,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 1983,
+      "month": 3,
+      "value": 343.04,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 1983,
+      "month": 4,
+      "value": 343.51,
+      "uncertainty": 0.05
+    },
+    {
+      "year": 1983,
+      "month": 5,
+      "value": 343.84,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1983,
+      "month": 6,
+      "value": 343.5,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1983,
+      "month": 7,
+      "value": 342.14,
+      "uncertainty": 0.13
+    },
+    {
+      "year": 1983,
+      "month": 8,
+      "value": 340.62,
+      "uncertainty": 0.15
+    },
+    {
+      "year": 1983,
+      "month": 9,
+      "value": 340.53,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 1983,
+      "month": 10,
+      "value": 341.75,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1983,
+      "month": 11,
+      "value": 342.83,
+      "uncertainty": 0.14
+    },
+    {
+      "year": 1983,
+      "month": 12,
+      "value": 343.49,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 1984,
+      "month": 1,
+      "value": 344.32,
+      "uncertainty": 0.06
+    },
+    {
+      "year": 1984,
+      "month": 2,
+      "value": 344.82,
+      "uncertainty": 0.05
+    },
+    {
+      "year": 1984,
+      "month": 3,
+      "value": 344.96,
+      "uncertainty": 0.06
+    },
+    {
+      "year": 1984,
+      "month": 4,
+      "value": 345.19,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 1984,
+      "month": 5,
+      "value": 345.33,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1984,
+      "month": 6,
+      "value": 344.57,
+      "uncertainty": 0.05
+    },
+    {
+      "year": 1984,
+      "month": 7,
+      "value": 343.2,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 1984,
+      "month": 8,
+      "value": 342.21,
+      "uncertainty": 0.17
+    },
+    {
+      "year": 1984,
+      "month": 9,
+      "value": 342.13,
+      "uncertainty": 0.16
+    },
+    {
+      "year": 1984,
+      "month": 10,
+      "value": 342.99,
+      "uncertainty": 0.13
+    },
+    {
+      "year": 1984,
+      "month": 11,
+      "value": 344.16,
+      "uncertainty": 0.14
+    },
+    {
+      "year": 1984,
+      "month": 12,
+      "value": 345.0,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1985,
+      "month": 1,
+      "value": 345.35,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1985,
+      "month": 2,
+      "value": 345.8,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1985,
+      "month": 3,
+      "value": 346.64,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1985,
+      "month": 4,
+      "value": 346.94,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1985,
+      "month": 5,
+      "value": 346.78,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1985,
+      "month": 6,
+      "value": 346.26,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1985,
+      "month": 7,
+      "value": 344.92,
+      "uncertainty": 0.13
+    },
+    {
+      "year": 1985,
+      "month": 8,
+      "value": 343.41,
+      "uncertainty": 0.14
+    },
+    {
+      "year": 1985,
+      "month": 9,
+      "value": 343.37,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1985,
+      "month": 10,
+      "value": 344.64,
+      "uncertainty": 0.06
+    },
+    {
+      "year": 1985,
+      "month": 11,
+      "value": 345.79,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 1985,
+      "month": 12,
+      "value": 346.55,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 1986,
+      "month": 1,
+      "value": 347.11,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1986,
+      "month": 2,
+      "value": 347.34,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 1986,
+      "month": 3,
+      "value": 347.71,
+      "uncertainty": 0.14
+    },
+    {
+      "year": 1986,
+      "month": 4,
+      "value": 348.22,
+      "uncertainty": 0.15
+    },
+    {
+      "year": 1986,
+      "month": 5,
+      "value": 348.32,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 1986,
+      "month": 6,
+      "value": 347.76,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1986,
+      "month": 7,
+      "value": 346.29,
+      "uncertainty": 0.16
+    },
+    {
+      "year": 1986,
+      "month": 8,
+      "value": 344.92,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 1986,
+      "month": 9,
+      "value": 344.86,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1986,
+      "month": 10,
+      "value": 346.03,
+      "uncertainty": 0.14
+    },
+    {
+      "year": 1986,
+      "month": 11,
+      "value": 347.3,
+      "uncertainty": 0.16
+    },
+    {
+      "year": 1986,
+      "month": 12,
+      "value": 347.76,
+      "uncertainty": 0.13
+    },
+    {
+      "year": 1987,
+      "month": 1,
+      "value": 348.01,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1987,
+      "month": 2,
+      "value": 348.56,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1987,
+      "month": 3,
+      "value": 349.28,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1987,
+      "month": 4,
+      "value": 349.98,
+      "uncertainty": 0.14
+    },
+    {
+      "year": 1987,
+      "month": 5,
+      "value": 350.26,
+      "uncertainty": 0.17
+    },
+    {
+      "year": 1987,
+      "month": 6,
+      "value": 349.46,
+      "uncertainty": 0.14
+    },
+    {
+      "year": 1987,
+      "month": 7,
+      "value": 347.84,
+      "uncertainty": 0.17
+    },
+    {
+      "year": 1987,
+      "month": 8,
+      "value": 346.61,
+      "uncertainty": 0.17
+    },
+    {
+      "year": 1987,
+      "month": 9,
+      "value": 346.7,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1987,
+      "month": 10,
+      "value": 347.97,
+      "uncertainty": 0.13
+    },
+    {
+      "year": 1987,
+      "month": 11,
+      "value": 349.25,
+      "uncertainty": 0.13
+    },
+    {
+      "year": 1987,
+      "month": 12,
+      "value": 350.21,
+      "uncertainty": 0.13
+    },
+    {
+      "year": 1988,
+      "month": 1,
+      "value": 350.91,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1988,
+      "month": 2,
+      "value": 351.47,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1988,
+      "month": 3,
+      "value": 351.85,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1988,
+      "month": 4,
+      "value": 352.29,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 1988,
+      "month": 5,
+      "value": 352.46,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 1988,
+      "month": 6,
+      "value": 351.76,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1988,
+      "month": 7,
+      "value": 350.28,
+      "uncertainty": 0.13
+    },
+    {
+      "year": 1988,
+      "month": 8,
+      "value": 349.1,
+      "uncertainty": 0.15
+    },
+    {
+      "year": 1988,
+      "month": 9,
+      "value": 349.27,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1988,
+      "month": 10,
+      "value": 350.44,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1988,
+      "month": 11,
+      "value": 351.61,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1988,
+      "month": 12,
+      "value": 352.46,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1989,
+      "month": 1,
+      "value": 353.01,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 1989,
+      "month": 2,
+      "value": 353.46,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1989,
+      "month": 3,
+      "value": 354.01,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1989,
+      "month": 4,
+      "value": 354.38,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1989,
+      "month": 5,
+      "value": 354.19,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1989,
+      "month": 6,
+      "value": 353.26,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1989,
+      "month": 7,
+      "value": 351.56,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 1989,
+      "month": 8,
+      "value": 350.21,
+      "uncertainty": 0.14
+    },
+    {
+      "year": 1989,
+      "month": 9,
+      "value": 350.56,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1989,
+      "month": 10,
+      "value": 351.85,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1989,
+      "month": 11,
+      "value": 353.04,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1989,
+      "month": 12,
+      "value": 353.91,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1990,
+      "month": 1,
+      "value": 354.48,
+      "uncertainty": 0.13
+    },
+    {
+      "year": 1990,
+      "month": 2,
+      "value": 354.88,
+      "uncertainty": 0.15
+    },
+    {
+      "year": 1990,
+      "month": 3,
+      "value": 355.2,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 1990,
+      "month": 4,
+      "value": 355.51,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1990,
+      "month": 5,
+      "value": 355.41,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1990,
+      "month": 6,
+      "value": 354.32,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1990,
+      "month": 7,
+      "value": 352.7,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1990,
+      "month": 8,
+      "value": 351.58,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1990,
+      "month": 9,
+      "value": 351.79,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 1990,
+      "month": 10,
+      "value": 353.19,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 1990,
+      "month": 11,
+      "value": 354.45,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1990,
+      "month": 12,
+      "value": 355.19,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 1991,
+      "month": 1,
+      "value": 355.76,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 1991,
+      "month": 2,
+      "value": 356.19,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 1991,
+      "month": 3,
+      "value": 356.69,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 1991,
+      "month": 4,
+      "value": 357.19,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1991,
+      "month": 5,
+      "value": 357.11,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1991,
+      "month": 6,
+      "value": 356.18,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 1991,
+      "month": 7,
+      "value": 354.53,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 1991,
+      "month": 8,
+      "value": 353.06,
+      "uncertainty": 0.13
+    },
+    {
+      "year": 1991,
+      "month": 9,
+      "value": 352.93,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1991,
+      "month": 10,
+      "value": 354.01,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1991,
+      "month": 11,
+      "value": 355.16,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1991,
+      "month": 12,
+      "value": 355.95,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1992,
+      "month": 1,
+      "value": 356.54,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1992,
+      "month": 2,
+      "value": 356.89,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1992,
+      "month": 3,
+      "value": 357.26,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1992,
+      "month": 4,
+      "value": 357.76,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1992,
+      "month": 5,
+      "value": 357.83,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1992,
+      "month": 6,
+      "value": 356.87,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 1992,
+      "month": 7,
+      "value": 355.18,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1992,
+      "month": 8,
+      "value": 353.66,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1992,
+      "month": 9,
+      "value": 353.58,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 1992,
+      "month": 10,
+      "value": 354.81,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1992,
+      "month": 11,
+      "value": 355.99,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1992,
+      "month": 12,
+      "value": 356.74,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1993,
+      "month": 1,
+      "value": 357.21,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1993,
+      "month": 2,
+      "value": 357.55,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1993,
+      "month": 3,
+      "value": 357.96,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1993,
+      "month": 4,
+      "value": 358.43,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1993,
+      "month": 5,
+      "value": 358.38,
+      "uncertainty": 0.13
+    },
+    {
+      "year": 1993,
+      "month": 6,
+      "value": 357.35,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 1993,
+      "month": 7,
+      "value": 355.73,
+      "uncertainty": 0.14
+    },
+    {
+      "year": 1993,
+      "month": 8,
+      "value": 354.45,
+      "uncertainty": 0.15
+    },
+    {
+      "year": 1993,
+      "month": 9,
+      "value": 354.48,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1993,
+      "month": 10,
+      "value": 355.71,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1993,
+      "month": 11,
+      "value": 356.96,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1993,
+      "month": 12,
+      "value": 357.86,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1994,
+      "month": 1,
+      "value": 358.48,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 1994,
+      "month": 2,
+      "value": 359.0,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 1994,
+      "month": 3,
+      "value": 359.36,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1994,
+      "month": 4,
+      "value": 359.71,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1994,
+      "month": 5,
+      "value": 359.74,
+      "uncertainty": 0.14
+    },
+    {
+      "year": 1994,
+      "month": 6,
+      "value": 358.8,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 1994,
+      "month": 7,
+      "value": 357.27,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1994,
+      "month": 8,
+      "value": 356.06,
+      "uncertainty": 0.14
+    },
+    {
+      "year": 1994,
+      "month": 9,
+      "value": 356.02,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1994,
+      "month": 10,
+      "value": 357.27,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1994,
+      "month": 11,
+      "value": 358.69,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1994,
+      "month": 12,
+      "value": 359.54,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 1995,
+      "month": 1,
+      "value": 360.13,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1995,
+      "month": 2,
+      "value": 360.62,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1995,
+      "month": 3,
+      "value": 361.08,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 1995,
+      "month": 4,
+      "value": 361.55,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 1995,
+      "month": 5,
+      "value": 361.47,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1995,
+      "month": 6,
+      "value": 360.62,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 1995,
+      "month": 7,
+      "value": 359.0,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 1995,
+      "month": 8,
+      "value": 357.74,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1995,
+      "month": 9,
+      "value": 358.06,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 1995,
+      "month": 10,
+      "value": 359.43,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 1995,
+      "month": 11,
+      "value": 360.77,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 1995,
+      "month": 12,
+      "value": 361.65,
+      "uncertainty": 0.06
+    },
+    {
+      "year": 1996,
+      "month": 1,
+      "value": 362.14,
+      "uncertainty": 0.06
+    },
+    {
+      "year": 1996,
+      "month": 2,
+      "value": 362.5,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1996,
+      "month": 3,
+      "value": 362.82,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1996,
+      "month": 4,
+      "value": 363.14,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1996,
+      "month": 5,
+      "value": 363.29,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 1996,
+      "month": 6,
+      "value": 362.88,
+      "uncertainty": 0.06
+    },
+    {
+      "year": 1996,
+      "month": 7,
+      "value": 361.57,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 1996,
+      "month": 8,
+      "value": 360.07,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1996,
+      "month": 9,
+      "value": 359.7,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 1996,
+      "month": 10,
+      "value": 360.67,
+      "uncertainty": 0.06
+    },
+    {
+      "year": 1996,
+      "month": 11,
+      "value": 361.78,
+      "uncertainty": 0.06
+    },
+    {
+      "year": 1996,
+      "month": 12,
+      "value": 362.63,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 1997,
+      "month": 1,
+      "value": 363.26,
+      "uncertainty": 0.06
+    },
+    {
+      "year": 1997,
+      "month": 2,
+      "value": 363.63,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 1997,
+      "month": 3,
+      "value": 364.02,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1997,
+      "month": 4,
+      "value": 364.5,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1997,
+      "month": 5,
+      "value": 364.5,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1997,
+      "month": 6,
+      "value": 363.58,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 1997,
+      "month": 7,
+      "value": 361.93,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1997,
+      "month": 8,
+      "value": 360.4,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1997,
+      "month": 9,
+      "value": 360.4,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 1997,
+      "month": 10,
+      "value": 361.93,
+      "uncertainty": 0.06
+    },
+    {
+      "year": 1997,
+      "month": 11,
+      "value": 363.61,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1997,
+      "month": 12,
+      "value": 364.68,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1998,
+      "month": 1,
+      "value": 365.19,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1998,
+      "month": 2,
+      "value": 365.47,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1998,
+      "month": 3,
+      "value": 365.93,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1998,
+      "month": 4,
+      "value": 366.58,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 1998,
+      "month": 5,
+      "value": 366.86,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 1998,
+      "month": 6,
+      "value": 366.26,
+      "uncertainty": 0.06
+    },
+    {
+      "year": 1998,
+      "month": 7,
+      "value": 364.83,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 1998,
+      "month": 8,
+      "value": 363.79,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 1998,
+      "month": 9,
+      "value": 364.03,
+      "uncertainty": 0.06
+    },
+    {
+      "year": 1998,
+      "month": 10,
+      "value": 365.34,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 1998,
+      "month": 11,
+      "value": 366.6,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 1998,
+      "month": 12,
+      "value": 367.47,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 1999,
+      "month": 1,
+      "value": 368.11,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1999,
+      "month": 2,
+      "value": 368.51,
+      "uncertainty": 0.14
+    },
+    {
+      "year": 1999,
+      "month": 3,
+      "value": 368.9,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1999,
+      "month": 4,
+      "value": 369.29,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1999,
+      "month": 5,
+      "value": 369.21,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 1999,
+      "month": 6,
+      "value": 368.36,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 1999,
+      "month": 7,
+      "value": 366.69,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 1999,
+      "month": 8,
+      "value": 365.33,
+      "uncertainty": 0.15
+    },
+    {
+      "year": 1999,
+      "month": 9,
+      "value": 365.45,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 1999,
+      "month": 10,
+      "value": 366.75,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 1999,
+      "month": 11,
+      "value": 368.04,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 1999,
+      "month": 12,
+      "value": 368.88,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2000,
+      "month": 1,
+      "value": 369.39,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2000,
+      "month": 2,
+      "value": 369.65,
+      "uncertainty": 0.14
+    },
+    {
+      "year": 2000,
+      "month": 3,
+      "value": 369.97,
+      "uncertainty": 0.13
+    },
+    {
+      "year": 2000,
+      "month": 4,
+      "value": 370.35,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 2000,
+      "month": 5,
+      "value": 370.24,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2000,
+      "month": 6,
+      "value": 369.31,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2000,
+      "month": 7,
+      "value": 367.91,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 2000,
+      "month": 8,
+      "value": 366.76,
+      "uncertainty": 0.14
+    },
+    {
+      "year": 2000,
+      "month": 9,
+      "value": 366.71,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2000,
+      "month": 10,
+      "value": 367.91,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2000,
+      "month": 11,
+      "value": 369.28,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2000,
+      "month": 12,
+      "value": 370.1,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2001,
+      "month": 1,
+      "value": 370.69,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2001,
+      "month": 2,
+      "value": 371.18,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2001,
+      "month": 3,
+      "value": 371.59,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2001,
+      "month": 4,
+      "value": 371.9,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2001,
+      "month": 5,
+      "value": 371.76,
+      "uncertainty": 0.06
+    },
+    {
+      "year": 2001,
+      "month": 6,
+      "value": 370.81,
+      "uncertainty": 0.06
+    },
+    {
+      "year": 2001,
+      "month": 7,
+      "value": 369.45,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2001,
+      "month": 8,
+      "value": 368.32,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2001,
+      "month": 9,
+      "value": 368.36,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2001,
+      "month": 10,
+      "value": 369.71,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2001,
+      "month": 11,
+      "value": 371.05,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2001,
+      "month": 12,
+      "value": 371.97,
+      "uncertainty": 0.13
+    },
+    {
+      "year": 2002,
+      "month": 1,
+      "value": 372.51,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2002,
+      "month": 2,
+      "value": 372.91,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2002,
+      "month": 3,
+      "value": 373.38,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2002,
+      "month": 4,
+      "value": 373.73,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2002,
+      "month": 5,
+      "value": 373.71,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2002,
+      "month": 6,
+      "value": 372.84,
+      "uncertainty": 0.05
+    },
+    {
+      "year": 2002,
+      "month": 7,
+      "value": 371.41,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2002,
+      "month": 8,
+      "value": 370.35,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2002,
+      "month": 9,
+      "value": 370.67,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2002,
+      "month": 10,
+      "value": 371.95,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2002,
+      "month": 11,
+      "value": 373.28,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2002,
+      "month": 12,
+      "value": 374.26,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2003,
+      "month": 1,
+      "value": 374.94,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2003,
+      "month": 2,
+      "value": 375.47,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2003,
+      "month": 3,
+      "value": 375.91,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2003,
+      "month": 4,
+      "value": 376.39,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2003,
+      "month": 5,
+      "value": 376.54,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2003,
+      "month": 6,
+      "value": 375.71,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2003,
+      "month": 7,
+      "value": 374.16,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2003,
+      "month": 8,
+      "value": 372.93,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 2003,
+      "month": 9,
+      "value": 373.09,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2003,
+      "month": 10,
+      "value": 374.36,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2003,
+      "month": 11,
+      "value": 375.66,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2003,
+      "month": 12,
+      "value": 376.52,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2004,
+      "month": 1,
+      "value": 377.21,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2004,
+      "month": 2,
+      "value": 377.73,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2004,
+      "month": 3,
+      "value": 378.16,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2004,
+      "month": 4,
+      "value": 378.47,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2004,
+      "month": 5,
+      "value": 378.4,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2004,
+      "month": 6,
+      "value": 377.51,
+      "uncertainty": 0.06
+    },
+    {
+      "year": 2004,
+      "month": 7,
+      "value": 375.96,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2004,
+      "month": 8,
+      "value": 374.49,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2004,
+      "month": 9,
+      "value": 374.39,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2004,
+      "month": 10,
+      "value": 375.73,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2004,
+      "month": 11,
+      "value": 377.2,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2004,
+      "month": 12,
+      "value": 378.17,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2005,
+      "month": 1,
+      "value": 378.73,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2005,
+      "month": 2,
+      "value": 379.27,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2005,
+      "month": 3,
+      "value": 379.87,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2005,
+      "month": 4,
+      "value": 380.32,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2005,
+      "month": 5,
+      "value": 380.42,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2005,
+      "month": 6,
+      "value": 379.6,
+      "uncertainty": 0.06
+    },
+    {
+      "year": 2005,
+      "month": 7,
+      "value": 377.94,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2005,
+      "month": 8,
+      "value": 376.73,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2005,
+      "month": 9,
+      "value": 376.76,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2005,
+      "month": 10,
+      "value": 378.07,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2005,
+      "month": 11,
+      "value": 379.53,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 2005,
+      "month": 12,
+      "value": 380.52,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2006,
+      "month": 1,
+      "value": 381.33,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2006,
+      "month": 2,
+      "value": 381.95,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2006,
+      "month": 3,
+      "value": 382.34,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2006,
+      "month": 4,
+      "value": 382.68,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2006,
+      "month": 5,
+      "value": 382.63,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2006,
+      "month": 6,
+      "value": 381.76,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2006,
+      "month": 7,
+      "value": 380.07,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2006,
+      "month": 8,
+      "value": 378.49,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2006,
+      "month": 9,
+      "value": 378.63,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2006,
+      "month": 10,
+      "value": 380.08,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2006,
+      "month": 11,
+      "value": 381.44,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2006,
+      "month": 12,
+      "value": 382.39,
+      "uncertainty": 0.06
+    },
+    {
+      "year": 2007,
+      "month": 1,
+      "value": 383.03,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2007,
+      "month": 2,
+      "value": 383.54,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2007,
+      "month": 3,
+      "value": 384.01,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2007,
+      "month": 4,
+      "value": 384.27,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2007,
+      "month": 5,
+      "value": 384.12,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2007,
+      "month": 6,
+      "value": 383.26,
+      "uncertainty": 0.06
+    },
+    {
+      "year": 2007,
+      "month": 7,
+      "value": 381.55,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2007,
+      "month": 8,
+      "value": 380.3,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2007,
+      "month": 9,
+      "value": 380.69,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2007,
+      "month": 10,
+      "value": 382.1,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2007,
+      "month": 11,
+      "value": 383.45,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2007,
+      "month": 12,
+      "value": 384.46,
+      "uncertainty": 0.06
+    },
+    {
+      "year": 2008,
+      "month": 1,
+      "value": 385.23,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2008,
+      "month": 2,
+      "value": 385.74,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2008,
+      "month": 3,
+      "value": 386.15,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2008,
+      "month": 4,
+      "value": 386.53,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2008,
+      "month": 5,
+      "value": 386.49,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2008,
+      "month": 6,
+      "value": 385.58,
+      "uncertainty": 0.06
+    },
+    {
+      "year": 2008,
+      "month": 7,
+      "value": 384.1,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2008,
+      "month": 8,
+      "value": 382.77,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2008,
+      "month": 9,
+      "value": 382.54,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2008,
+      "month": 10,
+      "value": 383.67,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2008,
+      "month": 11,
+      "value": 385.18,
+      "uncertainty": 0.06
+    },
+    {
+      "year": 2008,
+      "month": 12,
+      "value": 386.27,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2009,
+      "month": 1,
+      "value": 387.03,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2009,
+      "month": 2,
+      "value": 387.48,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2009,
+      "month": 3,
+      "value": 387.71,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2009,
+      "month": 4,
+      "value": 387.99,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2009,
+      "month": 5,
+      "value": 387.95,
+      "uncertainty": 0.06
+    },
+    {
+      "year": 2009,
+      "month": 6,
+      "value": 386.96,
+      "uncertainty": 0.05
+    },
+    {
+      "year": 2009,
+      "month": 7,
+      "value": 385.01,
+      "uncertainty": 0.15
+    },
+    {
+      "year": 2009,
+      "month": 8,
+      "value": 383.63,
+      "uncertainty": 0.15
+    },
+    {
+      "year": 2009,
+      "month": 9,
+      "value": 383.93,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2009,
+      "month": 10,
+      "value": 385.49,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 2009,
+      "month": 11,
+      "value": 386.94,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2009,
+      "month": 12,
+      "value": 387.84,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2010,
+      "month": 1,
+      "value": 388.62,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2010,
+      "month": 2,
+      "value": 389.33,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2010,
+      "month": 3,
+      "value": 389.68,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2010,
+      "month": 4,
+      "value": 389.98,
+      "uncertainty": 0.13
+    },
+    {
+      "year": 2010,
+      "month": 5,
+      "value": 389.95,
+      "uncertainty": 0.16
+    },
+    {
+      "year": 2010,
+      "month": 6,
+      "value": 389.01,
+      "uncertainty": 0.13
+    },
+    {
+      "year": 2010,
+      "month": 7,
+      "value": 387.35,
+      "uncertainty": 0.16
+    },
+    {
+      "year": 2010,
+      "month": 8,
+      "value": 386.23,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2010,
+      "month": 9,
+      "value": 386.7,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2010,
+      "month": 10,
+      "value": 388.25,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2010,
+      "month": 11,
+      "value": 389.62,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2010,
+      "month": 12,
+      "value": 390.34,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2011,
+      "month": 1,
+      "value": 390.85,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2011,
+      "month": 2,
+      "value": 391.29,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2011,
+      "month": 3,
+      "value": 391.66,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2011,
+      "month": 4,
+      "value": 392.05,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2011,
+      "month": 5,
+      "value": 392.07,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2011,
+      "month": 6,
+      "value": 391.13,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2011,
+      "month": 7,
+      "value": 389.19,
+      "uncertainty": 0.18
+    },
+    {
+      "year": 2011,
+      "month": 8,
+      "value": 387.86,
+      "uncertainty": 0.18
+    },
+    {
+      "year": 2011,
+      "month": 9,
+      "value": 388.26,
+      "uncertainty": 0.14
+    },
+    {
+      "year": 2011,
+      "month": 10,
+      "value": 389.83,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 2011,
+      "month": 11,
+      "value": 391.21,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2011,
+      "month": 12,
+      "value": 392.04,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2012,
+      "month": 1,
+      "value": 392.61,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2012,
+      "month": 2,
+      "value": 393.2,
+      "uncertainty": 0.15
+    },
+    {
+      "year": 2012,
+      "month": 3,
+      "value": 393.72,
+      "uncertainty": 0.14
+    },
+    {
+      "year": 2012,
+      "month": 4,
+      "value": 393.99,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 2012,
+      "month": 5,
+      "value": 393.88,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2012,
+      "month": 6,
+      "value": 392.84,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2012,
+      "month": 7,
+      "value": 391.0,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 2012,
+      "month": 8,
+      "value": 389.89,
+      "uncertainty": 0.15
+    },
+    {
+      "year": 2012,
+      "month": 9,
+      "value": 390.55,
+      "uncertainty": 0.13
+    },
+    {
+      "year": 2012,
+      "month": 10,
+      "value": 392.16,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 2012,
+      "month": 11,
+      "value": 393.56,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2012,
+      "month": 12,
+      "value": 394.39,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2013,
+      "month": 1,
+      "value": 395.07,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2013,
+      "month": 2,
+      "value": 395.69,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 2013,
+      "month": 3,
+      "value": 396.28,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2013,
+      "month": 4,
+      "value": 396.74,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2013,
+      "month": 5,
+      "value": 396.75,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2013,
+      "month": 6,
+      "value": 395.96,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2013,
+      "month": 7,
+      "value": 394.48,
+      "uncertainty": 0.19
+    },
+    {
+      "year": 2013,
+      "month": 8,
+      "value": 393.24,
+      "uncertainty": 0.16
+    },
+    {
+      "year": 2013,
+      "month": 9,
+      "value": 393.21,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 2013,
+      "month": 10,
+      "value": 394.5,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 2013,
+      "month": 11,
+      "value": 395.96,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2013,
+      "month": 12,
+      "value": 396.87,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2014,
+      "month": 1,
+      "value": 397.51,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2014,
+      "month": 2,
+      "value": 397.97,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2014,
+      "month": 3,
+      "value": 398.27,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2014,
+      "month": 4,
+      "value": 398.63,
+      "uncertainty": 0.06
+    },
+    {
+      "year": 2014,
+      "month": 5,
+      "value": 398.69,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2014,
+      "month": 6,
+      "value": 397.72,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2014,
+      "month": 7,
+      "value": 396.13,
+      "uncertainty": 0.15
+    },
+    {
+      "year": 2014,
+      "month": 8,
+      "value": 395.02,
+      "uncertainty": 0.15
+    },
+    {
+      "year": 2014,
+      "month": 9,
+      "value": 395.12,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2014,
+      "month": 10,
+      "value": 396.38,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2014,
+      "month": 11,
+      "value": 397.86,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2014,
+      "month": 12,
+      "value": 398.83,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2015,
+      "month": 1,
+      "value": 399.56,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2015,
+      "month": 2,
+      "value": 400.12,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2015,
+      "month": 3,
+      "value": 400.57,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2015,
+      "month": 4,
+      "value": 400.96,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2015,
+      "month": 5,
+      "value": 400.91,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2015,
+      "month": 6,
+      "value": 400.06,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2015,
+      "month": 7,
+      "value": 398.38,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2015,
+      "month": 8,
+      "value": 397.07,
+      "uncertainty": 0.13
+    },
+    {
+      "year": 2015,
+      "month": 9,
+      "value": 397.34,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2015,
+      "month": 10,
+      "value": 398.8,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2015,
+      "month": 11,
+      "value": 400.36,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2015,
+      "month": 12,
+      "value": 401.66,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2016,
+      "month": 1,
+      "value": 402.62,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2016,
+      "month": 2,
+      "value": 403.26,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2016,
+      "month": 3,
+      "value": 403.85,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2016,
+      "month": 4,
+      "value": 404.36,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2016,
+      "month": 5,
+      "value": 404.4,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2016,
+      "month": 6,
+      "value": 403.62,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2016,
+      "month": 7,
+      "value": 402.1,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2016,
+      "month": 8,
+      "value": 400.78,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2016,
+      "month": 9,
+      "value": 400.96,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2016,
+      "month": 10,
+      "value": 402.41,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2016,
+      "month": 11,
+      "value": 403.76,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2016,
+      "month": 12,
+      "value": 404.67,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2017,
+      "month": 1,
+      "value": 405.33,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2017,
+      "month": 2,
+      "value": 405.91,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2017,
+      "month": 3,
+      "value": 406.32,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2017,
+      "month": 4,
+      "value": 406.6,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2017,
+      "month": 5,
+      "value": 406.64,
+      "uncertainty": 0.15
+    },
+    {
+      "year": 2017,
+      "month": 6,
+      "value": 405.85,
+      "uncertainty": 0.13
+    },
+    {
+      "year": 2017,
+      "month": 7,
+      "value": 404.11,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2017,
+      "month": 8,
+      "value": 402.57,
+      "uncertainty": 0.15
+    },
+    {
+      "year": 2017,
+      "month": 9,
+      "value": 402.66,
+      "uncertainty": 0.16
+    },
+    {
+      "year": 2017,
+      "month": 10,
+      "value": 404.16,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2017,
+      "month": 11,
+      "value": 405.7,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2017,
+      "month": 12,
+      "value": 406.75,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2018,
+      "month": 1,
+      "value": 407.53,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2018,
+      "month": 2,
+      "value": 408.23,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 2018,
+      "month": 3,
+      "value": 408.77,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2018,
+      "month": 4,
+      "value": 409.07,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2018,
+      "month": 5,
+      "value": 408.94,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2018,
+      "month": 6,
+      "value": 408.06,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2018,
+      "month": 7,
+      "value": 406.49,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2018,
+      "month": 8,
+      "value": 405.11,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 2018,
+      "month": 9,
+      "value": 405.18,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2018,
+      "month": 10,
+      "value": 406.65,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2018,
+      "month": 11,
+      "value": 408.13,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2018,
+      "month": 12,
+      "value": 409.19,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2019,
+      "month": 1,
+      "value": 409.92,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2019,
+      "month": 2,
+      "value": 410.34,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 2019,
+      "month": 3,
+      "value": 410.89,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 2019,
+      "month": 4,
+      "value": 411.33,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2019,
+      "month": 5,
+      "value": 411.34,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2019,
+      "month": 6,
+      "value": 410.53,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2019,
+      "month": 7,
+      "value": 408.88,
+      "uncertainty": 0.13
+    },
+    {
+      "year": 2019,
+      "month": 8,
+      "value": 407.65,
+      "uncertainty": 0.14
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "value": 407.92,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2019,
+      "month": 10,
+      "value": 409.44,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2019,
+      "month": 11,
+      "value": 410.88,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2019,
+      "month": 12,
+      "value": 411.76,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2020,
+      "month": 1,
+      "value": 412.44,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2020,
+      "month": 2,
+      "value": 412.97,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2020,
+      "month": 3,
+      "value": 413.44,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2020,
+      "month": 4,
+      "value": 413.86,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2020,
+      "month": 5,
+      "value": 413.81,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2020,
+      "month": 6,
+      "value": 412.88,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2020,
+      "month": 7,
+      "value": 411.17,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2020,
+      "month": 8,
+      "value": 409.74,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 2020,
+      "month": 9,
+      "value": 410.0,
+      "uncertainty": 0.13
+    },
+    {
+      "year": 2020,
+      "month": 10,
+      "value": 411.66,
+      "uncertainty": 0.15
+    },
+    {
+      "year": 2020,
+      "month": 11,
+      "value": 413.25,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 2020,
+      "month": 12,
+      "value": 414.14,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2021,
+      "month": 1,
+      "value": 414.73,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2021,
+      "month": 2,
+      "value": 415.2,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 2021,
+      "month": 3,
+      "value": 415.49,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2021,
+      "month": 4,
+      "value": 415.81,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 2021,
+      "month": 5,
+      "value": 416.01,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 2021,
+      "month": 6,
+      "value": 415.2,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2021,
+      "month": 7,
+      "value": 413.45,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2021,
+      "month": 8,
+      "value": 412.15,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2021,
+      "month": 9,
+      "value": 412.38,
+      "uncertainty": 0.06
+    },
+    {
+      "year": 2021,
+      "month": 10,
+      "value": 413.83,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2021,
+      "month": 11,
+      "value": 415.58,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2021,
+      "month": 12,
+      "value": 416.6,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2022,
+      "month": 1,
+      "value": 417.18,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2022,
+      "month": 2,
+      "value": 417.64,
+      "uncertainty": 0.15
+    },
+    {
+      "year": 2022,
+      "month": 3,
+      "value": 418.16,
+      "uncertainty": 0.15
+    },
+    {
+      "year": 2022,
+      "month": 4,
+      "value": 418.58,
+      "uncertainty": 0.14
+    },
+    {
+      "year": 2022,
+      "month": 5,
+      "value": 418.45,
+      "uncertainty": 0.18
+    },
+    {
+      "year": 2022,
+      "month": 6,
+      "value": 417.43,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 2022,
+      "month": 7,
+      "value": 415.67,
+      "uncertainty": 0.17
+    },
+    {
+      "year": 2022,
+      "month": 8,
+      "value": 414.4,
+      "uncertainty": 0.16
+    },
+    {
+      "year": 2022,
+      "month": 9,
+      "value": 414.62,
+      "uncertainty": 0.13
+    },
+    {
+      "year": 2022,
+      "month": 10,
+      "value": 416.13,
+      "uncertainty": 0.16
+    },
+    {
+      "year": 2022,
+      "month": 11,
+      "value": 417.84,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 2022,
+      "month": 12,
+      "value": 418.91,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2023,
+      "month": 1,
+      "value": 419.37,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2023,
+      "month": 2,
+      "value": 419.65,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2023,
+      "month": 3,
+      "value": 419.98,
+      "uncertainty": 0.14
+    },
+    {
+      "year": 2023,
+      "month": 4,
+      "value": 420.48,
+      "uncertainty": 0.18
+    },
+    {
+      "year": 2023,
+      "month": 5,
+      "value": 420.54,
+      "uncertainty": 0.18
+    },
+    {
+      "year": 2023,
+      "month": 6,
+      "value": 419.56,
+      "uncertainty": 0.13
+    },
+    {
+      "year": 2023,
+      "month": 7,
+      "value": 417.92,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2023,
+      "month": 8,
+      "value": 416.78,
+      "uncertainty": 0.14
+    },
+    {
+      "year": 2023,
+      "month": 9,
+      "value": 417.17,
+      "uncertainty": 0.15
+    },
+    {
+      "year": 2023,
+      "month": 10,
+      "value": 418.84,
+      "uncertainty": 0.18
+    },
+    {
+      "year": 2023,
+      "month": 11,
+      "value": 420.4,
+      "uncertainty": 0.15
+    },
+    {
+      "year": 2023,
+      "month": 12,
+      "value": 421.5,
+      "uncertainty": 0.14
+    },
+    {
+      "year": 2024,
+      "month": 1,
+      "value": 422.2,
+      "uncertainty": 0.14
+    },
+    {
+      "year": 2024,
+      "month": 2,
+      "value": 422.79,
+      "uncertainty": 0.13
+    },
+    {
+      "year": 2024,
+      "month": 3,
+      "value": 423.38,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 2024,
+      "month": 4,
+      "value": 423.85,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 2024,
+      "month": 5,
+      "value": 423.93,
+      "uncertainty": 0.14
+    },
+    {
+      "year": 2024,
+      "month": 6,
+      "value": 423.23,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2024,
+      "month": 7,
+      "value": 421.61,
+      "uncertainty": 0.16
+    },
+    {
+      "year": 2024,
+      "month": 8,
+      "value": 420.27,
+      "uncertainty": 0.17
+    },
+    {
+      "year": 2024,
+      "month": 9,
+      "value": 420.58,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2024,
+      "month": 10,
+      "value": 422.33,
+      "uncertainty": 0.14
+    },
+    {
+      "year": 2024,
+      "month": 11,
+      "value": 424.07,
+      "uncertainty": 0.15
+    },
+    {
+      "year": 2024,
+      "month": 12,
+      "value": 425.2,
+      "uncertainty": 0.12
+    },
+    {
+      "year": 2025,
+      "month": 1,
+      "value": 426.01,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2025,
+      "month": 2,
+      "value": 426.46,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2025,
+      "month": 3,
+      "value": 426.66,
+      "uncertainty": 0.11
+    },
+    {
+      "year": 2025,
+      "month": 4,
+      "value": 427.03,
+      "uncertainty": 0.15
+    },
+    {
+      "year": 2025,
+      "month": 5,
+      "value": 427.04,
+      "uncertainty": 0.18
+    },
+    {
+      "year": 2025,
+      "month": 6,
+      "value": 425.9,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2025,
+      "month": 7,
+      "value": 424.09,
+      "uncertainty": 0.24
+    },
+    {
+      "year": 2025,
+      "month": 8,
+      "value": 422.86,
+      "uncertainty": 0.23
+    },
+    {
+      "year": 2025,
+      "month": 9,
+      "value": 423.06,
+      "uncertainty": 0.06
+    },
+    {
+      "year": 2025,
+      "month": 10,
+      "value": 424.66,
+      "uncertainty": 0.08
+    },
+    {
+      "year": 2025,
+      "month": 11,
+      "value": 426.38,
+      "uncertainty": 0.07
+    },
+    {
+      "year": 2025,
+      "month": 12,
+      "value": 427.31,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2026,
+      "month": 1,
+      "value": 428.02,
+      "uncertainty": 0.09
+    },
+    {
+      "year": 2026,
+      "month": 2,
+      "value": 428.45,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2026,
+      "month": 3,
+      "value": 428.5,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2026,
+      "month": 4,
+      "value": 428.68,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2026,
+      "month": 5,
+      "value": 428.62,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "value": 427.79,
+      "uncertainty": 0.1
+    },
+    {
+      "year": 2026,
+      "month": 7,
+      "value": 426.1,
+      "uncertainty": 0.1
+    }
+  ]
+}

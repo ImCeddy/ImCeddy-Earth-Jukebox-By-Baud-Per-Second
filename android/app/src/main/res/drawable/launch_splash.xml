@@ -1,0 +1,8 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/ic_launcher_background" />
+    <item
+        android:width="128dp"
+        android:height="128dp"
+        android:drawable="@drawable/ic_earth_jukebox"
+        android:gravity="center" />
+</layer-list>

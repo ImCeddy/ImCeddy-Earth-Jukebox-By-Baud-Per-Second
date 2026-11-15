@@ -1,0 +1,1043 @@
+{
+  "locationId": "tacloban-leyte",
+  "datasetId": "tacloban-leyte-nighttime-radiance",
+  "metric": "monthly_black_marble_nighttime_radiance",
+  "unit": "nW/(cm\u00b2 sr)",
+  "source": {
+    "mission": "NASA Suomi NPP / VIIRS Black Marble",
+    "product": "VNP46A3.002 monthly nighttime lights",
+    "url": "https://doi.org/10.5067/VIIRS/VNP46A3.002"
+  },
+  "scaleNote": "Each monthly value is the median radiance of quality-flag-0 land pixels in a fixed 11\u00d711 grid-cell neighborhood around central Tacloban. The product measures nighttime radiance, not electricity access, casualties, damage, or household recovery. Monthly compositing can obscure short outages. Months with fewer than 10 quality-valid land pixels are rejected; months without a passing sample are omitted, not zero.",
+  "sampling": {
+    "method": "Median of AllAngle_Composite_Snow_Free pixels with quality flag 0 and land/water mask 0 or 1 in an 11x11 neighborhood; at least 10 valid pixels are required for an observed month.",
+    "neighborhood": "11\u00d711 grid cells centered on the nearest VNP46A3 cell to central Tacloban.",
+    "missingMonths": [
+      "2012-09",
+      "2013-06",
+      "2013-08",
+      "2016-08",
+      "2017-01",
+      "2017-07",
+      "2017-09",
+      "2018-07",
+      "2020-08",
+      "2020-10",
+      "2021-07",
+      "2022-02",
+      "2022-12",
+      "2024-06",
+      "2025-08",
+      "2025-09"
+    ],
+    "missingGranules": [],
+    "minimumValidPixelsPerMonth": 10,
+    "rejectedLowSupportMonths": [
+      {
+        "month": "2013-06",
+        "validPixelSamples": 1
+      },
+      {
+        "month": "2017-07",
+        "validPixelSamples": 1
+      },
+      {
+        "month": "2017-09",
+        "validPixelSamples": 1
+      },
+      {
+        "month": "2021-07",
+        "validPixelSamples": 1
+      },
+      {
+        "month": "2025-08",
+        "validPixelSamples": 5
+      }
+    ]
+  },
+  "gridCell": {
+    "requestedCoordinates": [
+      11.2431609,
+      125.0082936
+    ],
+    "nearestCellCenter": [
+      11.241667,
+      125.008333
+    ],
+    "distanceFromLocationKm": 0.166
+  },
+  "series": [
+    {
+      "year": 2012,
+      "month": 1,
+      "value": 7.416711,
+      "validPixelSamples": 21
+    },
+    {
+      "year": 2012,
+      "month": 2,
+      "value": 7.28048,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2012,
+      "month": 3,
+      "value": 6.515678,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2012,
+      "month": 4,
+      "value": 6.772352,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2012,
+      "month": 5,
+      "value": 6.898993,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2012,
+      "month": 6,
+      "value": 7.429737,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2012,
+      "month": 7,
+      "value": 6.679154,
+      "validPixelSamples": 10
+    },
+    {
+      "year": 2012,
+      "month": 8,
+      "value": 6.796721,
+      "validPixelSamples": 19
+    },
+    {
+      "year": 2012,
+      "month": 10,
+      "value": 7.150136,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2012,
+      "month": 11,
+      "value": 6.701338,
+      "validPixelSamples": 21
+    },
+    {
+      "year": 2012,
+      "month": 12,
+      "value": 6.767903,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2013,
+      "month": 1,
+      "value": 6.088427,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2013,
+      "month": 2,
+      "value": 6.60566,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2013,
+      "month": 3,
+      "value": 7.733936,
+      "validPixelSamples": 21
+    },
+    {
+      "year": 2013,
+      "month": 4,
+      "value": 7.465723,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2013,
+      "month": 5,
+      "value": 8.163584,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2013,
+      "month": 7,
+      "value": 6.186504,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2013,
+      "month": 9,
+      "value": 6.389503,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2013,
+      "month": 10,
+      "value": 6.58663,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2013,
+      "month": 11,
+      "value": 0.778636,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2013,
+      "month": 12,
+      "value": 0.912626,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2014,
+      "month": 1,
+      "value": 1.947355,
+      "validPixelSamples": 21
+    },
+    {
+      "year": 2014,
+      "month": 2,
+      "value": 2.661571,
+      "validPixelSamples": 25
+    },
+    {
+      "year": 2014,
+      "month": 3,
+      "value": 2.769887,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2014,
+      "month": 4,
+      "value": 3.849888,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2014,
+      "month": 5,
+      "value": 4.321691,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2014,
+      "month": 6,
+      "value": 4.116911,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2014,
+      "month": 7,
+      "value": 4.093074,
+      "validPixelSamples": 21
+    },
+    {
+      "year": 2014,
+      "month": 8,
+      "value": 3.595731,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2014,
+      "month": 9,
+      "value": 3.528203,
+      "validPixelSamples": 17
+    },
+    {
+      "year": 2014,
+      "month": 10,
+      "value": 4.142455,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2014,
+      "month": 11,
+      "value": 4.820847,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2014,
+      "month": 12,
+      "value": 5.082519,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2015,
+      "month": 1,
+      "value": 4.444148,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2015,
+      "month": 2,
+      "value": 5.08192,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2015,
+      "month": 3,
+      "value": 5.746257,
+      "validPixelSamples": 21
+    },
+    {
+      "year": 2015,
+      "month": 4,
+      "value": 6.942529,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2015,
+      "month": 5,
+      "value": 6.126595,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2015,
+      "month": 6,
+      "value": 6.586369,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2015,
+      "month": 7,
+      "value": 5.453657,
+      "validPixelSamples": 24
+    },
+    {
+      "year": 2015,
+      "month": 8,
+      "value": 6.11693,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2015,
+      "month": 9,
+      "value": 5.216195,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2015,
+      "month": 10,
+      "value": 6.383821,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2015,
+      "month": 11,
+      "value": 5.921213,
+      "validPixelSamples": 21
+    },
+    {
+      "year": 2015,
+      "month": 12,
+      "value": 6.581373,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2016,
+      "month": 1,
+      "value": 6.033632,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2016,
+      "month": 2,
+      "value": 5.903277,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2016,
+      "month": 3,
+      "value": 7.177749,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2016,
+      "month": 4,
+      "value": 7.62761,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2016,
+      "month": 5,
+      "value": 7.279982,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2016,
+      "month": 6,
+      "value": 7.555392,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2016,
+      "month": 7,
+      "value": 6.129011,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2016,
+      "month": 9,
+      "value": 6.402968,
+      "validPixelSamples": 19
+    },
+    {
+      "year": 2016,
+      "month": 10,
+      "value": 6.831879,
+      "validPixelSamples": 21
+    },
+    {
+      "year": 2016,
+      "month": 11,
+      "value": 6.386021,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2016,
+      "month": 12,
+      "value": 7.090217,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2017,
+      "month": 2,
+      "value": 6.868285,
+      "validPixelSamples": 24
+    },
+    {
+      "year": 2017,
+      "month": 3,
+      "value": 7.438523,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2017,
+      "month": 4,
+      "value": 7.49532,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2017,
+      "month": 5,
+      "value": 6.814939,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2017,
+      "month": 6,
+      "value": 7.856337,
+      "validPixelSamples": 24
+    },
+    {
+      "year": 2017,
+      "month": 8,
+      "value": 7.772419,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2017,
+      "month": 10,
+      "value": 7.375307,
+      "validPixelSamples": 21
+    },
+    {
+      "year": 2017,
+      "month": 11,
+      "value": 7.808509,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2017,
+      "month": 12,
+      "value": 8.130419,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2018,
+      "month": 1,
+      "value": 7.646136,
+      "validPixelSamples": 19
+    },
+    {
+      "year": 2018,
+      "month": 2,
+      "value": 6.68787,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2018,
+      "month": 3,
+      "value": 7.79942,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2018,
+      "month": 4,
+      "value": 8.615093,
+      "validPixelSamples": 21
+    },
+    {
+      "year": 2018,
+      "month": 5,
+      "value": 7.961698,
+      "validPixelSamples": 21
+    },
+    {
+      "year": 2018,
+      "month": 6,
+      "value": 7.427189,
+      "validPixelSamples": 18
+    },
+    {
+      "year": 2018,
+      "month": 8,
+      "value": 6.917689,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2018,
+      "month": 9,
+      "value": 6.102266,
+      "validPixelSamples": 21
+    },
+    {
+      "year": 2018,
+      "month": 10,
+      "value": 7.235253,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2018,
+      "month": 11,
+      "value": 5.788792,
+      "validPixelSamples": 21
+    },
+    {
+      "year": 2018,
+      "month": 12,
+      "value": 6.868176,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2019,
+      "month": 1,
+      "value": 8.051423,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2019,
+      "month": 2,
+      "value": 7.403889,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2019,
+      "month": 3,
+      "value": 7.605813,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2019,
+      "month": 4,
+      "value": 8.740322,
+      "validPixelSamples": 21
+    },
+    {
+      "year": 2019,
+      "month": 5,
+      "value": 7.92064,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2019,
+      "month": 6,
+      "value": 7.593926,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2019,
+      "month": 7,
+      "value": 8.656554,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2019,
+      "month": 8,
+      "value": 7.961142,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "value": 7.59399,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2019,
+      "month": 10,
+      "value": 8.076795,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2019,
+      "month": 11,
+      "value": 8.233139,
+      "validPixelSamples": 20
+    },
+    {
+      "year": 2019,
+      "month": 12,
+      "value": 7.308284,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2020,
+      "month": 1,
+      "value": 6.128787,
+      "validPixelSamples": 21
+    },
+    {
+      "year": 2020,
+      "month": 2,
+      "value": 6.630541,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2020,
+      "month": 3,
+      "value": 7.901487,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2020,
+      "month": 4,
+      "value": 7.816427,
+      "validPixelSamples": 24
+    },
+    {
+      "year": 2020,
+      "month": 5,
+      "value": 7.074977,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2020,
+      "month": 6,
+      "value": 8.011569,
+      "validPixelSamples": 24
+    },
+    {
+      "year": 2020,
+      "month": 7,
+      "value": 6.664362,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2020,
+      "month": 9,
+      "value": 7.189267,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2020,
+      "month": 11,
+      "value": 6.689738,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2020,
+      "month": 12,
+      "value": 7.351704,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2021,
+      "month": 1,
+      "value": 7.585575,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2021,
+      "month": 2,
+      "value": 5.901103,
+      "validPixelSamples": 21
+    },
+    {
+      "year": 2021,
+      "month": 3,
+      "value": 6.444904,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2021,
+      "month": 4,
+      "value": 6.868341,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2021,
+      "month": 5,
+      "value": 6.92417,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2021,
+      "month": 6,
+      "value": 7.069538,
+      "validPixelSamples": 21
+    },
+    {
+      "year": 2021,
+      "month": 8,
+      "value": 8.342532,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2021,
+      "month": 9,
+      "value": 8.297424,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2021,
+      "month": 10,
+      "value": 5.790765,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2021,
+      "month": 11,
+      "value": 6.480365,
+      "validPixelSamples": 18
+    },
+    {
+      "year": 2021,
+      "month": 12,
+      "value": 4.549549,
+      "validPixelSamples": 15
+    },
+    {
+      "year": 2022,
+      "month": 1,
+      "value": 6.502179,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2022,
+      "month": 3,
+      "value": 6.440769,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2022,
+      "month": 4,
+      "value": 8.31099,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2022,
+      "month": 5,
+      "value": 9.08349,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2022,
+      "month": 6,
+      "value": 7.963029,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2022,
+      "month": 7,
+      "value": 6.902526,
+      "validPixelSamples": 21
+    },
+    {
+      "year": 2022,
+      "month": 8,
+      "value": 7.074656,
+      "validPixelSamples": 10
+    },
+    {
+      "year": 2022,
+      "month": 9,
+      "value": 8.672747,
+      "validPixelSamples": 21
+    },
+    {
+      "year": 2022,
+      "month": 10,
+      "value": 6.88778,
+      "validPixelSamples": 19
+    },
+    {
+      "year": 2022,
+      "month": 11,
+      "value": 6.881989,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2023,
+      "month": 1,
+      "value": 8.337616,
+      "validPixelSamples": 21
+    },
+    {
+      "year": 2023,
+      "month": 2,
+      "value": 6.400564,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2023,
+      "month": 3,
+      "value": 8.654819,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2023,
+      "month": 4,
+      "value": 8.886293,
+      "validPixelSamples": 21
+    },
+    {
+      "year": 2023,
+      "month": 5,
+      "value": 8.63433,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2023,
+      "month": 6,
+      "value": 8.729858,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2023,
+      "month": 7,
+      "value": 7.920917,
+      "validPixelSamples": 20
+    },
+    {
+      "year": 2023,
+      "month": 8,
+      "value": 10.810416,
+      "validPixelSamples": 21
+    },
+    {
+      "year": 2023,
+      "month": 9,
+      "value": 9.342259,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2023,
+      "month": 10,
+      "value": 10.175004,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2023,
+      "month": 11,
+      "value": 9.884297,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2023,
+      "month": 12,
+      "value": 9.047154,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2024,
+      "month": 1,
+      "value": 9.198639,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2024,
+      "month": 2,
+      "value": 9.774913,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2024,
+      "month": 3,
+      "value": 11.055258,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2024,
+      "month": 4,
+      "value": 12.713437,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2024,
+      "month": 5,
+      "value": 12.53529,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2024,
+      "month": 7,
+      "value": 11.54193,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2024,
+      "month": 8,
+      "value": 12.898261,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2024,
+      "month": 9,
+      "value": 12.394883,
+      "validPixelSamples": 21
+    },
+    {
+      "year": 2024,
+      "month": 10,
+      "value": 11.27529,
+      "validPixelSamples": 21
+    },
+    {
+      "year": 2024,
+      "month": 11,
+      "value": 12.031069,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2024,
+      "month": 12,
+      "value": 11.61824,
+      "validPixelSamples": 21
+    },
+    {
+      "year": 2025,
+      "month": 1,
+      "value": 12.479016,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2025,
+      "month": 2,
+      "value": 11.803783,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2025,
+      "month": 3,
+      "value": 10.805539,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2025,
+      "month": 4,
+      "value": 11.9877,
+      "validPixelSamples": 21
+    },
+    {
+      "year": 2025,
+      "month": 5,
+      "value": 11.670262,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2025,
+      "month": 6,
+      "value": 11.758361,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2025,
+      "month": 7,
+      "value": 14.522305,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2025,
+      "month": 10,
+      "value": 11.104297,
+      "validPixelSamples": 20
+    },
+    {
+      "year": 2025,
+      "month": 11,
+      "value": 11.297113,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2025,
+      "month": 12,
+      "value": 11.332094,
+      "validPixelSamples": 22
+    },
+    {
+      "year": 2026,
+      "month": 1,
+      "value": 12.508874,
+      "validPixelSamples": 21
+    },
+    {
+      "year": 2026,
+      "month": 2,
+      "value": 10.245589,
+      "validPixelSamples": 21
+    },
+    {
+      "year": 2026,
+      "month": 3,
+      "value": 13.089011,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2026,
+      "month": 4,
+      "value": 13.975748,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2026,
+      "month": 5,
+      "value": 13.505116,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "value": 15.163358,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2026,
+      "month": 7,
+      "value": 12.871164,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2026,
+      "month": 8,
+      "value": 14.464932,
+      "validPixelSamples": 23
+    },
+    {
+      "year": 2026,
+      "month": 9,
+      "value": 13.986314,
+      "validPixelSamples": 24
+    },
+    {
+      "year": 2026,
+      "month": 10,
+      "value": 13.201444,
+      "validPixelSamples": 21
+    }
+  ]
+}

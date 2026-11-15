@@ -1,0 +1,2212 @@
+{
+  "locationId": "angat-dam",
+  "metric": "monthly_mapped_water_area",
+  "unit": "km2",
+  "source": {
+    "mission": "NASA/USGS Landsat",
+    "product": "Landsat Collection 2 Level-2 Surface Reflectance, 30 m",
+    "url": "https://landsatlook.usgs.gov/stac-server/collections/landsat-c2l2-sr"
+  },
+  "references": [
+    {
+      "mission": "NASA",
+      "product": "Landsat data archive overview",
+      "url": "https://science.nasa.gov/mission/landsat/data-overview/"
+    },
+    {
+      "mission": "USGS",
+      "product": "Landsat Collection 2 Level-2, DOI 10.5066/P9IAXOVV",
+      "url": "https://doi.org/10.5066/P9IAXOVV"
+    },
+    {
+      "mission": "Microsoft Planetary Computer",
+      "product": "Public Landsat Collection 2 Level-2 STAC archive used for cloud-optimized raster access",
+      "url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2"
+    },
+    {
+      "mission": "USGS",
+      "product": "Collection 2 Quality Assessment Bands",
+      "url": "https://www.usgs.gov/landsat-missions/landsat-collection-2-quality-assessment-bands"
+    },
+    {
+      "mission": "OpenStreetMap contributors",
+      "product": "Angat Dam Reservoir boundary, relation 2970167",
+      "url": "https://www.openstreetmap.org/relation/2970167"
+    }
+  ],
+  "scaleNote": "Landsat Collection 2 Level-2 surface-reflectance pixels at 30 m are classified with MNDWI (green minus SWIR1 divided by green plus SWIR1; water threshold > 0) inside the current OpenStreetMap reservoir outline, relation 2970167. Pixels flagged as fill, dilated cloud, cirrus, cloud, cloud shadow, snow, or saturation are excluded; only scenes with at least 80% valid reservoir pixels are retained. The value is mapped surface area, not dam elevation, stored volume, or water supply. A current shoreline polygon is applied retrospectively, and the spectral threshold is an estimate rather than a gauge observation.",
+  "sampling": {
+    "method": "For each complete calendar month, Landsat Collection 2 Level-2 scenes intersecting the Angat Dam Reservoir boundary are ranked by distance from the 15th, with scene-wide cloud cover as a tie-breaker. Each candidate is masked using its QA_PIXEL layer and classified with MNDWI > 0; the nearest scene with at least 80% valid reservoir-pixel coverage is retained. Each water pixel contributes 900 m2. Missing months remain gaps.",
+    "index": "MNDWI = (green surface reflectance - SWIR1 surface reflectance) / (green + SWIR1); water threshold > 0",
+    "qualityMask": "QA_PIXEL fill, dilated cloud, cirrus, cloud, cloud shadow, snow bits, and any QA_RADSAT flag are excluded.",
+    "minimumValidCoverage": 0.8,
+    "boundarySource": {
+      "url": "https://www.openstreetmap.org/relation/2970167",
+      "attribution": "© OpenStreetMap contributors"
+    },
+    "missingMonths": [
+      "1988-01",
+      "1988-02",
+      "1988-05",
+      "1988-06",
+      "1988-07",
+      "1988-08",
+      "1988-10",
+      "1988-11",
+      "1988-12",
+      "1989-03",
+      "1989-06",
+      "1989-07",
+      "1989-08",
+      "1989-09",
+      "1989-10",
+      "1989-12",
+      "1990-01",
+      "1990-02",
+      "1990-04",
+      "1990-05",
+      "1990-06",
+      "1990-07",
+      "1990-08",
+      "1990-09",
+      "1990-10",
+      "1990-11",
+      "1990-12",
+      "1991-01",
+      "1991-02",
+      "1991-03",
+      "1991-04",
+      "1991-05",
+      "1991-06",
+      "1991-07",
+      "1991-08",
+      "1991-11",
+      "1991-12",
+      "1992-02",
+      "1992-04",
+      "1992-05",
+      "1992-07",
+      "1992-08",
+      "1992-09",
+      "1992-10",
+      "1992-11",
+      "1992-12",
+      "1993-01",
+      "1993-03",
+      "1993-04",
+      "1993-08",
+      "1993-09",
+      "1993-10",
+      "1993-11",
+      "1993-12",
+      "1994-01",
+      "1994-02",
+      "1994-03",
+      "1994-04",
+      "1994-05",
+      "1994-06",
+      "1994-07",
+      "1994-08",
+      "1994-09",
+      "1994-11",
+      "1994-12",
+      "1995-01",
+      "1995-03",
+      "1995-04",
+      "1995-05",
+      "1995-07",
+      "1995-08",
+      "1995-09",
+      "1995-10",
+      "1995-11",
+      "1995-12",
+      "1996-02",
+      "1996-03",
+      "1996-04",
+      "1996-05",
+      "1996-07",
+      "1996-08",
+      "1996-10",
+      "1996-11",
+      "1996-12",
+      "1997-01",
+      "1997-04",
+      "1997-07",
+      "1997-08",
+      "1997-09",
+      "1997-11",
+      "1997-12",
+      "1998-01",
+      "1998-02",
+      "1998-03",
+      "1998-04",
+      "1998-05",
+      "1998-06",
+      "1998-08",
+      "1998-09",
+      "1998-10",
+      "1998-11",
+      "1998-12",
+      "1999-01",
+      "1999-02",
+      "1999-03",
+      "1999-04",
+      "1999-05",
+      "1999-06",
+      "1999-07",
+      "1999-08",
+      "1999-09",
+      "1999-10",
+      "1999-11",
+      "1999-12",
+      "2000-01",
+      "2000-02",
+      "2000-03",
+      "2000-06",
+      "2000-07",
+      "2000-08",
+      "2000-09",
+      "2000-10",
+      "2000-11",
+      "2000-12",
+      "2001-01",
+      "2001-02",
+      "2001-03",
+      "2001-06",
+      "2001-08",
+      "2001-09",
+      "2001-10",
+      "2001-12",
+      "2002-01",
+      "2002-02",
+      "2002-03",
+      "2002-05",
+      "2002-06",
+      "2002-07",
+      "2002-08",
+      "2002-09",
+      "2002-10",
+      "2002-11",
+      "2002-12",
+      "2003-01",
+      "2003-02",
+      "2003-03",
+      "2003-04",
+      "2003-06",
+      "2003-07",
+      "2003-08",
+      "2003-09",
+      "2003-10",
+      "2003-11",
+      "2004-01",
+      "2004-02",
+      "2004-05",
+      "2004-06",
+      "2004-07",
+      "2004-08",
+      "2004-09",
+      "2004-10",
+      "2004-11",
+      "2004-12",
+      "2005-02",
+      "2005-03",
+      "2005-06",
+      "2005-08",
+      "2005-09",
+      "2005-10",
+      "2005-11",
+      "2005-12",
+      "2006-01",
+      "2006-02",
+      "2006-03",
+      "2006-06",
+      "2006-07",
+      "2006-08",
+      "2006-09",
+      "2006-11",
+      "2007-01",
+      "2007-02",
+      "2007-04",
+      "2007-06",
+      "2007-07",
+      "2007-09",
+      "2007-11",
+      "2007-12",
+      "2008-01",
+      "2008-02",
+      "2008-04",
+      "2008-05",
+      "2008-06",
+      "2008-07",
+      "2008-08",
+      "2008-10",
+      "2008-11",
+      "2008-12",
+      "2009-01",
+      "2009-02",
+      "2009-05",
+      "2009-06",
+      "2009-08",
+      "2009-09",
+      "2009-10",
+      "2009-11",
+      "2010-01",
+      "2010-02",
+      "2010-03",
+      "2010-04",
+      "2010-05",
+      "2010-06",
+      "2010-08",
+      "2010-09",
+      "2010-10",
+      "2010-11",
+      "2010-12",
+      "2011-01",
+      "2011-02",
+      "2011-03",
+      "2011-04",
+      "2011-05",
+      "2011-06",
+      "2011-07",
+      "2011-08",
+      "2011-09",
+      "2011-10",
+      "2011-11",
+      "2011-12",
+      "2012-01",
+      "2012-02",
+      "2012-03",
+      "2012-04",
+      "2012-05",
+      "2012-06",
+      "2012-07",
+      "2012-08",
+      "2012-09",
+      "2012-10",
+      "2012-11",
+      "2013-01",
+      "2013-02",
+      "2013-03",
+      "2013-06",
+      "2013-07",
+      "2013-08",
+      "2013-09",
+      "2013-10",
+      "2013-11",
+      "2013-12",
+      "2014-01",
+      "2014-03",
+      "2014-04",
+      "2014-05",
+      "2014-06",
+      "2014-07",
+      "2014-08",
+      "2014-09",
+      "2014-10",
+      "2014-12",
+      "2015-01",
+      "2015-02",
+      "2015-04",
+      "2015-06",
+      "2015-08",
+      "2015-09",
+      "2015-11",
+      "2015-12",
+      "2016-01",
+      "2016-03",
+      "2016-04",
+      "2016-06",
+      "2016-08",
+      "2016-09",
+      "2016-10",
+      "2016-11",
+      "2016-12",
+      "2017-01",
+      "2017-03",
+      "2017-05",
+      "2017-06",
+      "2017-07",
+      "2017-08",
+      "2017-09",
+      "2017-10",
+      "2017-11",
+      "2017-12",
+      "2018-01",
+      "2018-02",
+      "2018-03",
+      "2018-05",
+      "2018-06",
+      "2018-07",
+      "2018-08",
+      "2018-09",
+      "2018-10",
+      "2018-11",
+      "2018-12",
+      "2019-01",
+      "2019-02",
+      "2019-03",
+      "2019-04",
+      "2019-07",
+      "2019-08",
+      "2019-09",
+      "2019-10",
+      "2019-11",
+      "2020-04",
+      "2020-06",
+      "2020-08",
+      "2020-10",
+      "2020-11",
+      "2021-01",
+      "2021-03",
+      "2021-04",
+      "2021-07",
+      "2021-08",
+      "2021-10",
+      "2021-11",
+      "2021-12",
+      "2022-01",
+      "2022-02",
+      "2022-03",
+      "2022-04",
+      "2022-05",
+      "2022-06",
+      "2022-07",
+      "2022-08",
+      "2022-09",
+      "2022-11",
+      "2022-12",
+      "2023-01",
+      "2023-03",
+      "2023-05",
+      "2023-06",
+      "2023-07",
+      "2023-08",
+      "2023-09",
+      "2023-10",
+      "2023-11",
+      "2024-02",
+      "2024-04",
+      "2024-05",
+      "2024-07",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02",
+      "2026-03",
+      "2026-05",
+      "2026-07",
+      "2026-08",
+      "2026-09"
+    ],
+    "networkErrors": [
+      {
+        "month": "2000-07",
+        "observationAvailable": false,
+        "error": "LT05_L2SP_116050_20000710_02_T1: ConnectionError: Landsat scene asset request failed."
+      },
+      {
+        "month": "2000-08",
+        "observationAvailable": false,
+        "error": "LE07_L2SP_116050_20000819_02_T1: ConnectionError: Landsat scene asset request failed."
+      },
+      {
+        "month": "2000-09",
+        "observationAvailable": false,
+        "error": "LE07_L2SP_116050_20000920_02_T1: ConnectionError: Landsat scene asset request failed."
+      },
+      {
+        "month": "2000-10",
+        "observationAvailable": false,
+        "error": "LE07_L2SP_116050_20001022_02_T1: ConnectionError: Landsat scene asset request failed."
+      },
+      {
+        "month": "2000-11",
+        "observationAvailable": false,
+        "error": "LT05_L2SP_116050_20001115_02_T1: ConnectionError: Landsat scene asset request failed."
+      },
+      {
+        "month": "2000-12",
+        "observationAvailable": false,
+        "error": "LT05_L2SP_116050_20001201_02_T2: ConnectionError: Landsat scene asset request failed."
+      },
+      {
+        "month": "2001-01",
+        "observationAvailable": false,
+        "error": "LT05_L2SP_116050_20010118_02_T1: SSLError: Planetary Computer asset-signing request failed."
+      }
+    ],
+    "maximumConcurrentMonths": 6,
+    "selectedScenes": [
+      {
+        "month": "1987-12",
+        "scene": "LT05_L2SP_116050_19871230_02_T1",
+        "acquired": "1987-12-30T01:46:13.169013Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.8074,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 2,
+        "cloudCover": 17.0,
+        "metadataUpdated": "2022-05-06T17:25:51.796773Z"
+      },
+      {
+        "month": "1988-03",
+        "scene": "LT05_L2SP_116050_19880303_02_T1",
+        "acquired": "1988-03-03T01:47:13.983063Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.9191,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 2,
+        "cloudCover": 10.0,
+        "metadataUpdated": "2022-05-06T17:01:35.300962Z"
+      },
+      {
+        "month": "1988-04",
+        "scene": "LT05_L2SP_116050_19880420_02_T1",
+        "acquired": "1988-04-20T01:47:34.248081Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.8232,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 1,
+        "cloudCover": 14.0,
+        "metadataUpdated": "2022-05-06T17:01:36.173245Z"
+      },
+      {
+        "month": "1988-09",
+        "scene": "LT05_L2SP_116050_19880927_02_T1",
+        "acquired": "1988-09-27T01:48:04.711006Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.8109,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 2,
+        "cloudCover": 82.0,
+        "metadataUpdated": "2022-05-06T17:01:37.178062Z"
+      },
+      {
+        "month": "1989-01",
+        "scene": "LT04_L2SP_116050_19890125_02_T1",
+        "acquired": "1989-01-25T01:49:50.578031Z",
+        "platform": "landsat-4",
+        "validCoverage": 0.8594,
+        "candidatesAvailable": 3,
+        "candidatesEvaluated": 3,
+        "cloudCover": 26.0,
+        "metadataUpdated": "2022-05-06T17:31:55.807286Z"
+      },
+      {
+        "month": "1989-02",
+        "scene": "LT05_L2SP_116050_19890218_02_T1",
+        "acquired": "1989-02-18T01:47:24.052088Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.9984,
+        "candidatesAvailable": 1,
+        "candidatesEvaluated": 1,
+        "cloudCover": 32.0,
+        "metadataUpdated": "2022-05-06T17:31:57.191939Z"
+      },
+      {
+        "month": "1989-04",
+        "scene": "LT05_L2SP_116050_19890407_02_T1",
+        "acquired": "1989-04-07T01:46:33.950063Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.9803,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 2,
+        "cloudCover": 10.0,
+        "metadataUpdated": "2022-05-06T17:31:57.758614Z"
+      },
+      {
+        "month": "1989-05",
+        "scene": "LT05_L2SP_116050_19890509_02_T1",
+        "acquired": "1989-05-09T01:46:06.525013Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.966,
+        "candidatesAvailable": 3,
+        "candidatesEvaluated": 2,
+        "cloudCover": 19.0,
+        "metadataUpdated": "2022-05-06T17:31:58.145226Z"
+      },
+      {
+        "month": "1989-11",
+        "scene": "LT05_L2SP_116050_19891117_02_T1",
+        "acquired": "1989-11-17T01:41:32.367075Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.9588,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 1,
+        "cloudCover": 24.0,
+        "metadataUpdated": "2022-05-06T17:31:59.017087Z"
+      },
+      {
+        "month": "1990-03",
+        "scene": "LT05_L2SP_116050_19900325_02_T1",
+        "acquired": "1990-03-25T01:37:39.767088Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.9987,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 2,
+        "cloudCover": 10.0,
+        "metadataUpdated": "2022-05-06T16:44:10.447803Z"
+      },
+      {
+        "month": "1991-09",
+        "scene": "LT04_L2SP_116050_19910912_02_T1",
+        "acquired": "1991-09-12T01:31:23.803013Z",
+        "platform": "landsat-4",
+        "validCoverage": 0.9827,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 1,
+        "cloudCover": 17.0,
+        "metadataUpdated": "2022-05-06T17:18:32.027055Z"
+      },
+      {
+        "month": "1991-10",
+        "scene": "LT05_L2SP_116050_19911006_02_T1",
+        "acquired": "1991-10-06T01:41:26.683088Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.9144,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 2,
+        "cloudCover": 29.0,
+        "metadataUpdated": "2022-05-06T17:18:33.370204Z"
+      },
+      {
+        "month": "1992-01",
+        "scene": "LT05_L2SP_116050_19920126_02_T1",
+        "acquired": "1992-01-26T01:41:43.778094Z",
+        "platform": "landsat-5",
+        "validCoverage": 1.0,
+        "candidatesAvailable": 1,
+        "candidatesEvaluated": 1,
+        "cloudCover": 11.0,
+        "metadataUpdated": "2022-05-06T17:21:00.689086Z"
+      },
+      {
+        "month": "1992-03",
+        "scene": "LT05_L2SP_116050_19920314_02_T1",
+        "acquired": "1992-03-14T01:41:36.048069Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.8673,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 1,
+        "cloudCover": 22.0,
+        "metadataUpdated": "2022-05-06T17:21:01.125414Z"
+      },
+      {
+        "month": "1992-06",
+        "scene": "LT05_L2SP_116050_19920602_02_T1",
+        "acquired": "1992-06-02T01:40:57.459013Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.8375,
+        "candidatesAvailable": 1,
+        "candidatesEvaluated": 1,
+        "cloudCover": 9.0,
+        "metadataUpdated": "2022-05-06T17:21:01.627586Z"
+      },
+      {
+        "month": "1993-02",
+        "scene": "LT05_L2SP_116050_19930213_02_T1",
+        "acquired": "1993-02-13T01:39:22.038081Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.9999,
+        "candidatesAvailable": 1,
+        "candidatesEvaluated": 1,
+        "cloudCover": 8.0,
+        "metadataUpdated": "2022-05-06T17:04:21.892059Z"
+      },
+      {
+        "month": "1993-05",
+        "scene": "LT05_L2SP_116050_19930504_02_T1",
+        "acquired": "1993-05-04T01:39:52.211000Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.9694,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 2,
+        "cloudCover": 7.0,
+        "metadataUpdated": "2022-05-06T17:04:22.061733Z"
+      },
+      {
+        "month": "1993-06",
+        "scene": "LT05_L2SP_116050_19930621_02_T1",
+        "acquired": "1993-06-21T01:39:55.074094Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.9996,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 1,
+        "cloudCover": 22.0,
+        "metadataUpdated": "2022-05-06T17:04:22.691015Z"
+      },
+      {
+        "month": "1993-07",
+        "scene": "LT05_L2SP_116050_19930707_02_T1",
+        "acquired": "1993-07-07T01:39:49.735013Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.9497,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 2,
+        "cloudCover": 12.0,
+        "metadataUpdated": "2022-05-06T17:04:22.845792Z"
+      },
+      {
+        "month": "1994-10",
+        "scene": "LT05_L2SP_116050_19941014_02_T1",
+        "acquired": "1994-10-14T01:33:08.147019Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.9218,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 1,
+        "cloudCover": 18.0,
+        "metadataUpdated": "2022-05-06T17:54:09.560398Z"
+      },
+      {
+        "month": "1995-02",
+        "scene": "LT05_L2SP_116050_19950219_02_T1",
+        "acquired": "1995-02-19T01:28:37.671000Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.9738,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 1,
+        "cloudCover": 6.0,
+        "metadataUpdated": "2022-05-06T16:58:39.273724Z"
+      },
+      {
+        "month": "1995-06",
+        "scene": "LT05_L2SP_116050_19950627_02_T1",
+        "acquired": "1995-06-27T01:23:05.678025Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.9999,
+        "candidatesAvailable": 1,
+        "candidatesEvaluated": 1,
+        "cloudCover": 11.0,
+        "metadataUpdated": "2022-05-06T16:58:40.652576Z"
+      },
+      {
+        "month": "1996-01",
+        "scene": "LT05_L2SP_116050_19960105_02_T2",
+        "acquired": "1996-01-05T01:19:59.011019Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.9595,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 2,
+        "cloudCover": 24.0,
+        "metadataUpdated": "2022-05-06T17:07:09.285639Z"
+      },
+      {
+        "month": "1996-06",
+        "scene": "LT05_L2SP_116050_19960629_02_T1",
+        "acquired": "1996-06-29T01:30:58.239006Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.9964,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 2,
+        "cloudCover": 39.0,
+        "metadataUpdated": "2022-05-06T17:07:11.632494Z"
+      },
+      {
+        "month": "1996-09",
+        "scene": "LT05_L2SP_116050_19960901_02_T1",
+        "acquired": "1996-09-01T01:34:21.869094Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.9963,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 2,
+        "cloudCover": 24.0,
+        "metadataUpdated": "2022-05-06T17:07:12.428973Z"
+      },
+      {
+        "month": "1997-02",
+        "scene": "LT05_L2SP_116050_19970208_02_T2",
+        "acquired": "1997-02-08T01:42:10.666038Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.9987,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 1,
+        "cloudCover": 41.0,
+        "metadataUpdated": "2022-05-06T17:24:19.500465Z"
+      },
+      {
+        "month": "1997-03",
+        "scene": "LT05_L2SP_116050_19970312_02_T1",
+        "acquired": "1997-03-12T01:43:29.278019Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.8523,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 1,
+        "cloudCover": 46.0,
+        "metadataUpdated": "2022-05-06T17:24:20.032351Z"
+      },
+      {
+        "month": "1997-05",
+        "scene": "LT05_L2SP_116050_19970515_02_T1",
+        "acquired": "1997-05-15T01:45:46.207019Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.9999,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 1,
+        "cloudCover": 2.0,
+        "metadataUpdated": "2022-05-06T17:24:20.913733Z"
+      },
+      {
+        "month": "1997-06",
+        "scene": "LT05_L2SP_116050_19970616_02_T1",
+        "acquired": "1997-06-16T01:46:53.261056Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.9883,
+        "candidatesAvailable": 1,
+        "candidatesEvaluated": 1,
+        "cloudCover": 13.0,
+        "metadataUpdated": "2022-05-06T17:24:21.366062Z"
+      },
+      {
+        "month": "1997-10",
+        "scene": "LT05_L2SP_116050_19971022_02_T1",
+        "acquired": "1997-10-22T01:50:51.863019Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.988,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 1,
+        "cloudCover": 4.0,
+        "metadataUpdated": "2022-05-06T17:24:23.037096Z"
+      },
+      {
+        "month": "1998-07",
+        "scene": "LT05_L2SP_116050_19980721_02_T1",
+        "acquired": "1998-07-21T01:55:43.359056Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.9978,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 1,
+        "cloudCover": 12.0,
+        "metadataUpdated": "2022-05-06T17:51:22.789971Z"
+      },
+      {
+        "month": "2000-04",
+        "scene": "LT05_L2SP_116050_20000421_02_T1",
+        "acquired": "2000-04-21T01:52:20.956006Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.8277,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 1,
+        "cloudCover": 45.0,
+        "metadataUpdated": "2022-05-06T17:36:01.228080Z"
+      },
+      {
+        "month": "2000-05",
+        "scene": "LT05_L2SP_116050_20000523_02_T1",
+        "acquired": "2000-05-23T01:53:16.959056Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.9336,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 1,
+        "cloudCover": 73.0,
+        "metadataUpdated": "2022-05-06T17:36:01.624695Z"
+      },
+      {
+        "month": "2001-04",
+        "scene": "LE07_L2SP_116050_20010416_02_T1",
+        "acquired": "2001-04-16T02:07:32.843453Z",
+        "platform": "landsat-7",
+        "validCoverage": 0.8039,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 1,
+        "cloudCover": 17.0,
+        "metadataUpdated": "2022-05-06T17:04:14.072506Z"
+      },
+      {
+        "month": "2001-05",
+        "scene": "LE07_L2SP_116050_20010518_02_T1",
+        "acquired": "2001-05-18T02:07:16.856976Z",
+        "platform": "landsat-7",
+        "validCoverage": 0.9149,
+        "candidatesAvailable": 3,
+        "candidatesEvaluated": 1,
+        "cloudCover": 8.0,
+        "metadataUpdated": "2022-05-06T17:04:19.585767Z"
+      },
+      {
+        "month": "2001-07",
+        "scene": "LE07_L2SP_116050_20010721_02_T2",
+        "acquired": "2001-07-21T02:06:43.482042Z",
+        "platform": "landsat-7",
+        "validCoverage": 0.9343,
+        "candidatesAvailable": 4,
+        "candidatesEvaluated": 2,
+        "cloudCover": 13.0,
+        "metadataUpdated": "2022-05-06T17:04:20.075215Z"
+      },
+      {
+        "month": "2001-11",
+        "scene": "LE07_L2SP_116050_20011126_02_T1",
+        "acquired": "2001-11-26T02:05:59.468437Z",
+        "platform": "landsat-7",
+        "validCoverage": 0.9769,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 2,
+        "cloudCover": 15.0,
+        "metadataUpdated": "2022-05-06T17:04:21.377188Z"
+      },
+      {
+        "month": "2002-04",
+        "scene": "LE07_L2SP_116050_20020419_02_T1",
+        "acquired": "2002-04-19T02:06:12.002775Z",
+        "platform": "landsat-7",
+        "validCoverage": 0.8979,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 1,
+        "cloudCover": 24.0,
+        "metadataUpdated": "2022-05-06T16:41:00.568813Z"
+      },
+      {
+        "month": "2003-05",
+        "scene": "LE07_L2SP_116050_20030508_02_T1",
+        "acquired": "2003-05-08T02:06:10.758867Z",
+        "platform": "landsat-7",
+        "validCoverage": 0.9845,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 1,
+        "cloudCover": 7.0,
+        "metadataUpdated": "2022-05-06T16:43:11.605854Z"
+      },
+      {
+        "month": "2003-12",
+        "scene": "LT05_L2SP_116050_20031226_02_T1",
+        "acquired": "2003-12-26T01:56:08.494000Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.88,
+        "candidatesAvailable": 3,
+        "candidatesEvaluated": 2,
+        "cloudCover": 31.0,
+        "metadataUpdated": "2022-05-06T18:02:07.129958Z"
+      },
+      {
+        "month": "2004-03",
+        "scene": "LT05_L2SP_116050_20040331_02_T1",
+        "acquired": "2004-03-31T01:56:37.863069Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.9176,
+        "candidatesAvailable": 4,
+        "candidatesEvaluated": 4,
+        "cloudCover": 9.0,
+        "metadataUpdated": "2022-05-06T17:55:20.744043Z"
+      },
+      {
+        "month": "2004-04",
+        "scene": "LT05_L2SP_116050_20040416_02_T2",
+        "acquired": "2004-04-16T01:57:08.929025Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.9905,
+        "candidatesAvailable": 3,
+        "candidatesEvaluated": 1,
+        "cloudCover": 24.0,
+        "metadataUpdated": "2022-05-06T17:55:20.956186Z"
+      },
+      {
+        "month": "2005-01",
+        "scene": "LT05_L2SP_116050_20050113_02_T1",
+        "acquired": "2005-01-13T02:03:29.879000Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.9679,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 1,
+        "cloudCover": 26.0,
+        "metadataUpdated": "2022-05-06T17:23:17.372237Z"
+      },
+      {
+        "month": "2005-04",
+        "scene": "LE07_L2SP_116050_20050411_02_T1",
+        "acquired": "2005-04-11T02:07:01.364086Z",
+        "platform": "landsat-7",
+        "validCoverage": 0.8359,
+        "candidatesAvailable": 3,
+        "candidatesEvaluated": 2,
+        "cloudCover": 3.0,
+        "metadataUpdated": "2022-05-06T18:05:47.615739Z"
+      },
+      {
+        "month": "2005-05",
+        "scene": "LE07_L2SP_116050_20050513_02_T1",
+        "acquired": "2005-05-13T02:07:02.589869Z",
+        "platform": "landsat-7",
+        "validCoverage": 0.8459,
+        "candidatesAvailable": 3,
+        "candidatesEvaluated": 1,
+        "cloudCover": 43.0,
+        "metadataUpdated": "2022-05-06T18:05:47.994418Z"
+      },
+      {
+        "month": "2005-07",
+        "scene": "LT05_L2SP_116050_20050724_02_T1",
+        "acquired": "2005-07-24T02:05:17.189031Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.9096,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 2,
+        "cloudCover": 52.0,
+        "metadataUpdated": "2022-05-06T17:23:19.477009Z"
+      },
+      {
+        "month": "2006-04",
+        "scene": "LE07_L2SP_116050_20060414_02_T1",
+        "acquired": "2006-04-14T02:07:26.548872Z",
+        "platform": "landsat-7",
+        "validCoverage": 0.8388,
+        "candidatesAvailable": 4,
+        "candidatesEvaluated": 1,
+        "cloudCover": 11.0,
+        "metadataUpdated": "2022-05-06T17:41:10.388304Z"
+      },
+      {
+        "month": "2006-05",
+        "scene": "LT05_L2SP_116050_20060508_02_T1",
+        "acquired": "2006-05-08T02:09:26.509019Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.9159,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 1,
+        "cloudCover": 14.0,
+        "metadataUpdated": "2022-05-06T17:59:57.472784Z"
+      },
+      {
+        "month": "2006-10",
+        "scene": "LT05_L2SP_116050_20061031_02_T1",
+        "acquired": "2006-10-31T02:11:44.048025Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.9816,
+        "candidatesAvailable": 4,
+        "candidatesEvaluated": 4,
+        "cloudCover": 67.0,
+        "metadataUpdated": "2022-05-06T17:59:59.362907Z"
+      },
+      {
+        "month": "2006-12",
+        "scene": "LT05_L2SP_116050_20061202_02_T1",
+        "acquired": "2006-12-02T02:11:59.941031Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.8846,
+        "candidatesAvailable": 3,
+        "candidatesEvaluated": 3,
+        "cloudCover": 72.0,
+        "metadataUpdated": "2022-05-06T17:59:59.942250Z"
+      },
+      {
+        "month": "2007-03",
+        "scene": "LE07_L2SP_116050_20070316_02_T1",
+        "acquired": "2007-03-16T02:07:57.213824Z",
+        "platform": "landsat-7",
+        "validCoverage": 0.834,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 1,
+        "cloudCover": 8.0,
+        "metadataUpdated": "2022-05-06T17:23:20.713936Z"
+      },
+      {
+        "month": "2007-05",
+        "scene": "LT05_L2SP_116050_20070527_02_T1",
+        "acquired": "2007-05-27T02:11:47.899044Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.9903,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 2,
+        "cloudCover": 26.0,
+        "metadataUpdated": "2022-05-06T17:28:53.200438Z"
+      },
+      {
+        "month": "2007-08",
+        "scene": "LE07_L2SP_116050_20070823_02_T1",
+        "acquired": "2007-08-23T02:07:24.565440Z",
+        "platform": "landsat-7",
+        "validCoverage": 0.85,
+        "candidatesAvailable": 3,
+        "candidatesEvaluated": 2,
+        "cloudCover": 37.0,
+        "metadataUpdated": "2022-05-06T17:23:21.342773Z"
+      },
+      {
+        "month": "2007-10",
+        "scene": "LE07_L2SP_116050_20071026_02_T1",
+        "acquired": "2007-10-26T02:07:20.595778Z",
+        "platform": "landsat-7",
+        "validCoverage": 0.8192,
+        "candidatesAvailable": 3,
+        "candidatesEvaluated": 2,
+        "cloudCover": 20.0,
+        "metadataUpdated": "2022-05-06T17:23:21.927228Z"
+      },
+      {
+        "month": "2008-03",
+        "scene": "LT05_L2SP_116050_20080326_02_T1",
+        "acquired": "2008-03-26T02:07:12.910050Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.8738,
+        "candidatesAvailable": 3,
+        "candidatesEvaluated": 3,
+        "cloudCover": 23.0,
+        "metadataUpdated": "2022-05-06T18:04:21.883790Z"
+      },
+      {
+        "month": "2008-09",
+        "scene": "LT05_L2SP_116050_20080902_02_T1",
+        "acquired": "2008-09-02T02:02:52.549069Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.96,
+        "candidatesAvailable": 4,
+        "candidatesEvaluated": 4,
+        "cloudCover": 37.0,
+        "metadataUpdated": "2022-05-06T18:04:23.277373Z"
+      },
+      {
+        "month": "2009-03",
+        "scene": "LE07_L2SP_116050_20090305_02_T1",
+        "acquired": "2009-03-05T02:07:30.038114Z",
+        "platform": "landsat-7",
+        "validCoverage": 0.8554,
+        "candidatesAvailable": 3,
+        "candidatesEvaluated": 2,
+        "cloudCover": 3.0,
+        "metadataUpdated": "2022-05-06T16:49:09.703950Z"
+      },
+      {
+        "month": "2009-04",
+        "scene": "LE07_L2SP_116050_20090406_02_T1",
+        "acquired": "2009-04-06T02:07:43.459335Z",
+        "platform": "landsat-7",
+        "validCoverage": 0.8092,
+        "candidatesAvailable": 3,
+        "candidatesEvaluated": 2,
+        "cloudCover": 13.0,
+        "metadataUpdated": "2022-05-06T16:49:09.924000Z"
+      },
+      {
+        "month": "2009-07",
+        "scene": "LT05_L2SP_116050_20090703_02_T1",
+        "acquired": "2009-07-03T02:06:04.067000Z",
+        "platform": "landsat-5",
+        "validCoverage": 0.9238,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 2,
+        "cloudCover": 16.0,
+        "metadataUpdated": "2022-05-06T16:58:14.334472Z"
+      },
+      {
+        "month": "2009-12",
+        "scene": "LE07_L2SP_116050_20091202_02_T1",
+        "acquired": "2009-12-02T02:08:14.026957Z",
+        "platform": "landsat-7",
+        "validCoverage": 0.867,
+        "candidatesAvailable": 3,
+        "candidatesEvaluated": 3,
+        "cloudCover": 1.0,
+        "metadataUpdated": "2022-05-06T16:49:10.462750Z"
+      },
+      {
+        "month": "2010-07",
+        "scene": "LT05_L2SP_116050_20100706_02_T1",
+        "acquired": "2010-07-06T02:07:58.149000Z",
+        "platform": "landsat-5",
+        "validCoverage": 1.0,
+        "candidatesAvailable": 2,
+        "candidatesEvaluated": 2,
+        "cloudCover": 3.0,
+        "metadataUpdated": "2022-05-06T16:47:29.232301Z"
+      },
+      {
+        "month": "2012-12",
+        "scene": "LE07_L2SP_116050_20121210_02_T1",
+        "acquired": "2012-12-10T02:13:27.439448Z",
+        "platform": "landsat-7",
+        "validCoverage": 0.8592,
+        "candidatesAvailable": 1,
+        "candidatesEvaluated": 1,
+        "cloudCover": 11.0,
+        "metadataUpdated": "2022-05-06T18:04:00.416471Z"
+      },
+      {
+        "month": "2013-04",
+        "scene": "LC08_L2SP_116050_20130425_02_T1",
+        "acquired": "2013-04-25T02:19:11.122807Z",
+        "platform": "landsat-8",
+        "validCoverage": 0.9471,
+        "candidatesAvailable": 3,
+        "candidatesEvaluated": 2,
+        "cloudCover": 19.77,
+        "metadataUpdated": "2022-05-06T16:53:38.395314Z"
+      },
+      {
+        "month": "2013-05",
+        "scene": "LC08_L2SP_116050_20130527_02_T1",
+        "acquired": "2013-05-27T02:19:28.823239Z",
+        "platform": "landsat-8",
+        "validCoverage": 0.9058,
+        "candidatesAvailable": 3,
+        "candidatesEvaluated": 2,
+        "cloudCover": 26.12,
+        "metadataUpdated": "2022-05-06T16:53:38.540504Z"
+      },
+      {
+        "month": "2014-02",
+        "scene": "LC08_L2SP_116050_20140207_02_T1",
+        "acquired": "2014-02-07T02:18:24.242765Z",
+        "platform": "landsat-8",
+        "validCoverage": 1.0,
+        "candidatesAvailable": 5,
+        "candidatesEvaluated": 4,
+        "cloudCover": 3.06,
+        "metadataUpdated": "2022-05-06T17:53:57.511959Z"
+      },
+      {
+        "month": "2014-11",
+        "scene": "LC08_L2SP_116050_20141106_02_T1",
+        "acquired": "2014-11-06T02:17:39.001923Z",
+        "platform": "landsat-8",
+        "validCoverage": 0.8094,
+        "candidatesAvailable": 5,
+        "candidatesEvaluated": 3,
+        "cloudCover": 52.54,
+        "metadataUpdated": "2022-05-06T17:54:00.413615Z"
+      },
+      {
+        "month": "2015-03",
+        "scene": "LC08_L2SP_116050_20150330_02_T1",
+        "acquired": "2015-03-30T02:16:52.645901Z",
+        "platform": "landsat-8",
+        "validCoverage": 0.8853,
+        "candidatesAvailable": 5,
+        "candidatesEvaluated": 5,
+        "cloudCover": 13.98,
+        "metadataUpdated": "2022-05-06T17:51:53.220085Z"
+      },
+      {
+        "month": "2015-05",
+        "scene": "LC08_L2SP_116050_20150501_02_T1",
+        "acquired": "2015-05-01T02:16:39.483302Z",
+        "platform": "landsat-8",
+        "validCoverage": 0.9977,
+        "candidatesAvailable": 5,
+        "candidatesEvaluated": 4,
+        "cloudCover": 10.55,
+        "metadataUpdated": "2022-05-06T17:51:53.576276Z"
+      },
+      {
+        "month": "2015-07",
+        "scene": "LC08_L2SP_116050_20150720_02_T1",
+        "acquired": "2015-07-20T02:17:00.227374Z",
+        "platform": "landsat-8",
+        "validCoverage": 0.9341,
+        "candidatesAvailable": 4,
+        "candidatesEvaluated": 2,
+        "cloudCover": 16.54,
+        "metadataUpdated": "2022-05-06T17:51:54.525162Z"
+      },
+      {
+        "month": "2015-10",
+        "scene": "LC08_L2SP_116050_20151008_02_T1",
+        "acquired": "2015-10-08T02:17:26.686492Z",
+        "platform": "landsat-8",
+        "validCoverage": 0.9859,
+        "candidatesAvailable": 5,
+        "candidatesEvaluated": 2,
+        "cloudCover": 13.78,
+        "metadataUpdated": "2022-05-06T17:51:55.383531Z"
+      },
+      {
+        "month": "2016-02",
+        "scene": "LC08_L2SP_116050_20160213_02_T1",
+        "acquired": "2016-02-13T02:17:23.130056Z",
+        "platform": "landsat-8",
+        "validCoverage": 1.0,
+        "candidatesAvailable": 5,
+        "candidatesEvaluated": 1,
+        "cloudCover": 2.76,
+        "metadataUpdated": "2022-05-06T17:30:35.161838Z"
+      },
+      {
+        "month": "2016-05",
+        "scene": "LC08_L2SP_116050_20160519_02_T1",
+        "acquired": "2016-05-19T02:17:00.593651Z",
+        "platform": "landsat-8",
+        "validCoverage": 0.8522,
+        "candidatesAvailable": 5,
+        "candidatesEvaluated": 2,
+        "cloudCover": 18.04,
+        "metadataUpdated": "2022-05-06T17:30:41.150500Z"
+      },
+      {
+        "month": "2016-07",
+        "scene": "LE07_L2SP_116050_20160714_02_T1",
+        "acquired": "2016-07-14T02:19:58.882155Z",
+        "platform": "landsat-7",
+        "validCoverage": 0.817,
+        "candidatesAvailable": 6,
+        "candidatesEvaluated": 1,
+        "cloudCover": 31.0,
+        "metadataUpdated": "2022-05-06T17:05:46.636758Z"
+      },
+      {
+        "month": "2017-02",
+        "scene": "LE07_L2SP_116050_20170223_02_T1",
+        "acquired": "2017-02-23T02:19:27.317101Z",
+        "platform": "landsat-7",
+        "validCoverage": 0.8688,
+        "candidatesAvailable": 4,
+        "candidatesEvaluated": 3,
+        "cloudCover": 11.0,
+        "metadataUpdated": "2022-05-06T16:48:16.530793Z"
+      },
+      {
+        "month": "2017-04",
+        "scene": "LC08_L2SP_116050_20170420_02_T1",
+        "acquired": "2017-04-20T02:16:49.880742Z",
+        "platform": "landsat-8",
+        "validCoverage": 0.8846,
+        "candidatesAvailable": 6,
+        "candidatesEvaluated": 3,
+        "cloudCover": 20.14,
+        "metadataUpdated": "2022-05-06T16:39:53.299918Z"
+      },
+      {
+        "month": "2018-04",
+        "scene": "LC08_L2SP_116050_20180407_02_T1",
+        "acquired": "2018-04-07T02:16:49.370634Z",
+        "platform": "landsat-8",
+        "validCoverage": 0.8442,
+        "candidatesAvailable": 5,
+        "candidatesEvaluated": 4,
+        "cloudCover": 33.94,
+        "metadataUpdated": "2022-05-06T18:05:25.360102Z"
+      },
+      {
+        "month": "2019-05",
+        "scene": "LC08_L2SP_116050_20190528_02_T1",
+        "acquired": "2019-05-28T02:17:07.229736Z",
+        "platform": "landsat-8",
+        "validCoverage": 0.9969,
+        "candidatesAvailable": 6,
+        "candidatesEvaluated": 6,
+        "cloudCover": 21.71,
+        "metadataUpdated": "2022-05-06T16:52:46.218374Z"
+      },
+      {
+        "month": "2019-06",
+        "scene": "LE07_L2SP_116050_20190621_02_T1",
+        "acquired": "2019-06-21T02:06:49.362756Z",
+        "platform": "landsat-7",
+        "validCoverage": 0.8481,
+        "candidatesAvailable": 5,
+        "candidatesEvaluated": 3,
+        "cloudCover": 17.0,
+        "metadataUpdated": "2022-05-06T17:01:17.041412Z"
+      },
+      {
+        "month": "2019-12",
+        "scene": "LC08_L2SP_116050_20191206_02_T1",
+        "acquired": "2019-12-06T02:17:44.501937Z",
+        "platform": "landsat-8",
+        "validCoverage": 0.9983,
+        "candidatesAvailable": 6,
+        "candidatesEvaluated": 4,
+        "cloudCover": 18.09,
+        "metadataUpdated": "2022-05-06T16:52:51.559517Z"
+      },
+      {
+        "month": "2020-01",
+        "scene": "LC08_L2SP_116050_20200107_02_T1",
+        "acquired": "2020-01-07T02:17:37.648442Z",
+        "platform": "landsat-8",
+        "validCoverage": 0.9746,
+        "candidatesAvailable": 6,
+        "candidatesEvaluated": 4,
+        "cloudCover": 38.74,
+        "metadataUpdated": "2022-05-06T17:24:43.338836Z"
+      },
+      {
+        "month": "2020-02",
+        "scene": "LE07_L2SP_116050_20200216_02_T1",
+        "acquired": "2020-02-16T01:56:00.001793Z",
+        "platform": "landsat-7",
+        "validCoverage": 0.822,
+        "candidatesAvailable": 5,
+        "candidatesEvaluated": 1,
+        "cloudCover": 17.0,
+        "metadataUpdated": "2022-05-06T16:59:18.093464Z"
+      },
+      {
+        "month": "2020-03",
+        "scene": "LE07_L2SP_116050_20200319_02_T1",
+        "acquired": "2020-03-19T01:54:16.653726Z",
+        "platform": "landsat-7",
+        "validCoverage": 0.8429,
+        "candidatesAvailable": 6,
+        "candidatesEvaluated": 1,
+        "cloudCover": 20.0,
+        "metadataUpdated": "2022-05-06T16:59:18.413416Z"
+      },
+      {
+        "month": "2020-05",
+        "scene": "LC08_L2SP_116050_20200530_02_T1",
+        "acquired": "2020-05-30T02:16:54.083303Z",
+        "platform": "landsat-8",
+        "validCoverage": 0.842,
+        "candidatesAvailable": 6,
+        "candidatesEvaluated": 6,
+        "cloudCover": 17.15,
+        "metadataUpdated": "2022-05-06T17:24:44.897884Z"
+      },
+      {
+        "month": "2020-07",
+        "scene": "LE07_L2SP_116050_20200725_02_T1",
+        "acquired": "2020-07-25T01:46:41.294628Z",
+        "platform": "landsat-7",
+        "validCoverage": 0.8462,
+        "candidatesAvailable": 5,
+        "candidatesEvaluated": 3,
+        "cloudCover": 16.0,
+        "metadataUpdated": "2022-05-06T16:59:19.572466Z"
+      },
+      {
+        "month": "2020-09",
+        "scene": "LE07_L2SP_116050_20200927_02_T1",
+        "acquired": "2020-09-27T01:42:33.396793Z",
+        "platform": "landsat-7",
+        "validCoverage": 0.8402,
+        "candidatesAvailable": 5,
+        "candidatesEvaluated": 3,
+        "cloudCover": 15.0,
+        "metadataUpdated": "2022-05-06T16:59:20.168846Z"
+      },
+      {
+        "month": "2020-12",
+        "scene": "LC08_L2SP_116050_20201224_02_T1",
+        "acquired": "2020-12-24T02:17:44.780993Z",
+        "platform": "landsat-8",
+        "validCoverage": 0.9972,
+        "candidatesAvailable": 4,
+        "candidatesEvaluated": 4,
+        "cloudCover": 4.41,
+        "metadataUpdated": "2022-05-06T17:24:47.044988Z"
+      },
+      {
+        "month": "2021-02",
+        "scene": "LC08_L2SP_116050_20210226_02_T1",
+        "acquired": "2021-02-26T02:17:26.182933Z",
+        "platform": "landsat-8",
+        "validCoverage": 1.0,
+        "candidatesAvailable": 4,
+        "candidatesEvaluated": 4,
+        "cloudCover": 7.38,
+        "metadataUpdated": "2022-05-06T17:42:09.898497Z"
+      },
+      {
+        "month": "2021-05",
+        "scene": "LE07_L2SP_116050_20210525_02_T1",
+        "acquired": "2021-05-25T01:24:34.579373Z",
+        "platform": "landsat-7",
+        "validCoverage": 0.8471,
+        "candidatesAvailable": 5,
+        "candidatesEvaluated": 3,
+        "cloudCover": 4.0,
+        "metadataUpdated": "2022-05-06T17:16:59.223818Z"
+      },
+      {
+        "month": "2021-06",
+        "scene": "LE07_L2SP_116050_20210626_02_T1",
+        "acquired": "2021-06-26T01:21:55.641752Z",
+        "platform": "landsat-7",
+        "validCoverage": 0.8217,
+        "candidatesAvailable": 5,
+        "candidatesEvaluated": 3,
+        "cloudCover": 10.0,
+        "metadataUpdated": "2022-05-06T17:16:59.401979Z"
+      },
+      {
+        "month": "2021-09",
+        "scene": "LE07_L2SP_116050_20210914_02_T1",
+        "acquired": "2021-09-14T01:14:59.221689Z",
+        "platform": "landsat-7",
+        "validCoverage": 0.8393,
+        "candidatesAvailable": 6,
+        "candidatesEvaluated": 1,
+        "cloudCover": 6.0,
+        "metadataUpdated": "2022-05-06T17:17:04.014329Z"
+      },
+      {
+        "month": "2022-10",
+        "scene": "LC08_L2SP_116050_20221011_02_T1",
+        "acquired": "2022-10-11T02:17:57.553947Z",
+        "platform": "landsat-8",
+        "validCoverage": 0.991,
+        "candidatesAvailable": 7,
+        "candidatesEvaluated": 3,
+        "cloudCover": 6.24,
+        "metadataUpdated": "2022-10-26T09:15:25.689190Z"
+      },
+      {
+        "month": "2023-02",
+        "scene": "LC09_L2SP_116050_20230224_02_T1",
+        "acquired": "2023-02-24T02:17:41.473650Z",
+        "platform": "landsat-9",
+        "validCoverage": 0.9889,
+        "candidatesAvailable": 6,
+        "candidatesEvaluated": 6,
+        "cloudCover": 8.29,
+        "metadataUpdated": "2023-03-21T05:49:54.432307Z"
+      },
+      {
+        "month": "2023-04",
+        "scene": "LC08_L2SP_116050_20230421_02_T1",
+        "acquired": "2023-04-21T02:16:56.327888Z",
+        "platform": "landsat-8",
+        "validCoverage": 0.9797,
+        "candidatesAvailable": 8,
+        "candidatesEvaluated": 4,
+        "cloudCover": 16.96,
+        "metadataUpdated": "2023-05-01T09:13:55.618446Z"
+      },
+      {
+        "month": "2023-12",
+        "scene": "LC09_L2SP_116050_20231209_02_T1",
+        "acquired": "2023-12-09T02:17:39.801712Z",
+        "platform": "landsat-9",
+        "validCoverage": 0.8507,
+        "candidatesAvailable": 8,
+        "candidatesEvaluated": 3,
+        "cloudCover": 14.92,
+        "metadataUpdated": "2023-12-13T09:17:41.603134Z"
+      },
+      {
+        "month": "2024-01",
+        "scene": "LC09_L2SP_116050_20240110_02_T1",
+        "acquired": "2024-01-10T02:17:41.415054Z",
+        "platform": "landsat-9",
+        "validCoverage": 0.9256,
+        "candidatesAvailable": 8,
+        "candidatesEvaluated": 3,
+        "cloudCover": 8.3,
+        "metadataUpdated": "2024-01-15T09:13:31.440911Z"
+      },
+      {
+        "month": "2024-03",
+        "scene": "LC08_L2SP_116050_20240306_02_T1",
+        "acquired": "2024-03-06T02:17:18.401490Z",
+        "platform": "landsat-8",
+        "validCoverage": 1.0,
+        "candidatesAvailable": 8,
+        "candidatesEvaluated": 5,
+        "cloudCover": 1.23,
+        "metadataUpdated": "2024-03-17T09:13:12.554538Z"
+      },
+      {
+        "month": "2024-06",
+        "scene": "LC09_L2SP_116050_20240602_02_T1",
+        "acquired": "2024-06-02T02:16:47.760052Z",
+        "platform": "landsat-9",
+        "validCoverage": 0.9166,
+        "candidatesAvailable": 8,
+        "candidatesEvaluated": 7,
+        "cloudCover": 19.06,
+        "metadataUpdated": "2024-06-05T09:12:58.168313Z"
+      },
+      {
+        "month": "2024-08",
+        "scene": "LC09_L2SP_116050_20240821_02_T1",
+        "acquired": "2024-08-21T02:17:08.674991Z",
+        "platform": "landsat-9",
+        "validCoverage": 0.9802,
+        "candidatesAvailable": 8,
+        "candidatesEvaluated": 4,
+        "cloudCover": 24.08,
+        "metadataUpdated": "2024-08-24T09:26:11.945564Z"
+      },
+      {
+        "month": "2025-04",
+        "scene": "LC09_L2SP_116050_20250418_02_T1",
+        "acquired": "2025-04-18T02:17:15.943547Z",
+        "platform": "landsat-9",
+        "validCoverage": 0.9896,
+        "candidatesAvailable": 8,
+        "candidatesEvaluated": 2,
+        "cloudCover": 9.65,
+        "metadataUpdated": "2025-04-21T09:16:27.587108Z"
+      },
+      {
+        "month": "2025-05",
+        "scene": "LC08_L2SP_116050_20250512_02_T1",
+        "acquired": "2025-05-12T02:16:49.234230Z",
+        "platform": "landsat-8",
+        "validCoverage": 0.9466,
+        "candidatesAvailable": 8,
+        "candidatesEvaluated": 1,
+        "cloudCover": 14.94,
+        "metadataUpdated": "2025-05-17T09:13:49.784246Z"
+      },
+      {
+        "month": "2026-04",
+        "scene": "LC08_L2SP_116050_20260413_02_T1",
+        "acquired": "2026-04-13T02:17:00.274452Z",
+        "platform": "landsat-8",
+        "validCoverage": 0.8876,
+        "candidatesAvailable": 8,
+        "candidatesEvaluated": 1,
+        "cloudCover": 11.96,
+        "metadataUpdated": "2026-11-05T10:12:35.284276Z"
+      },
+      {
+        "month": "2026-06",
+        "scene": "LC08_L2SP_116050_20260616_02_T1",
+        "acquired": "2026-06-16T02:16:36.483852Z",
+        "platform": "landsat-8",
+        "validCoverage": 0.9964,
+        "candidatesAvailable": 5,
+        "candidatesEvaluated": 2,
+        "cloudCover": 19.45,
+        "metadataUpdated": "2026-11-05T10:12:41.459823Z"
+      },
+      {
+        "month": "2026-10",
+        "scene": "LC08_L2SP_116050_20261006_02_T1",
+        "acquired": "2026-10-06T02:17:27.784340Z",
+        "platform": "landsat-8",
+        "validCoverage": 0.9014,
+        "candidatesAvailable": 8,
+        "candidatesEvaluated": 5,
+        "cloudCover": 44.73,
+        "metadataUpdated": "2026-11-05T10:12:42.402905Z"
+      }
+    ]
+  },
+  "continuity": {
+    "method": "Linear interpolation between adjacent valid monthly observations for interior gaps of at most two months; source observations remain unchanged.",
+    "maximumInterpolatedGapMonths": 2
+  },
+  "series": [
+    {
+      "year": 1987,
+      "month": 12,
+      "value": 14.04,
+      "validPixelSamples": 17582
+    },
+    {
+      "year": 1988,
+      "month": 3,
+      "value": 16.4718,
+      "validPixelSamples": 20015
+    },
+    {
+      "year": 1988,
+      "month": 4,
+      "value": 13.554,
+      "validPixelSamples": 17925
+    },
+    {
+      "year": 1988,
+      "month": 9,
+      "value": 9.3555,
+      "validPixelSamples": 17659
+    },
+    {
+      "year": 1989,
+      "month": 1,
+      "value": 14.7771,
+      "validPixelSamples": 18714
+    },
+    {
+      "year": 1989,
+      "month": 2,
+      "value": 16.6644,
+      "validPixelSamples": 21742
+    },
+    {
+      "year": 1989,
+      "month": 4,
+      "value": 16.4367,
+      "validPixelSamples": 21346
+    },
+    {
+      "year": 1989,
+      "month": 5,
+      "value": 16.002,
+      "validPixelSamples": 21036
+    },
+    {
+      "year": 1989,
+      "month": 11,
+      "value": 14.2983,
+      "validPixelSamples": 20878
+    },
+    {
+      "year": 1990,
+      "month": 3,
+      "value": 13.329,
+      "validPixelSamples": 21747
+    },
+    {
+      "year": 1991,
+      "month": 9,
+      "value": 16.947,
+      "validPixelSamples": 21399
+    },
+    {
+      "year": 1991,
+      "month": 10,
+      "value": 16.1892,
+      "validPixelSamples": 19911
+    },
+    {
+      "year": 1992,
+      "month": 1,
+      "value": 16.0461,
+      "validPixelSamples": 21776
+    },
+    {
+      "year": 1992,
+      "month": 3,
+      "value": 11.4228,
+      "validPixelSamples": 18887
+    },
+    {
+      "year": 1992,
+      "month": 6,
+      "value": 6.9471,
+      "validPixelSamples": 18237
+    },
+    {
+      "year": 1993,
+      "month": 2,
+      "value": 16.1595,
+      "validPixelSamples": 21774
+    },
+    {
+      "year": 1993,
+      "month": 5,
+      "value": 10.3662,
+      "validPixelSamples": 21110
+    },
+    {
+      "year": 1993,
+      "month": 6,
+      "value": 8.5266,
+      "validPixelSamples": 21768
+    },
+    {
+      "year": 1993,
+      "month": 7,
+      "value": 7.9218,
+      "validPixelSamples": 20681
+    },
+    {
+      "year": 1994,
+      "month": 10,
+      "value": 13.2885,
+      "validPixelSamples": 20074
+    },
+    {
+      "year": 1995,
+      "month": 2,
+      "value": 16.263,
+      "validPixelSamples": 21206
+    },
+    {
+      "year": 1995,
+      "month": 6,
+      "value": 11.2554,
+      "validPixelSamples": 21774
+    },
+    {
+      "year": 1996,
+      "month": 1,
+      "value": 1.4823,
+      "validPixelSamples": 20893
+    },
+    {
+      "year": 1996,
+      "month": 6,
+      "value": 14.2587,
+      "validPixelSamples": 21697
+    },
+    {
+      "year": 1996,
+      "month": 9,
+      "value": 14.9193,
+      "validPixelSamples": 21695
+    },
+    {
+      "year": 1997,
+      "month": 2,
+      "value": 0.0135,
+      "validPixelSamples": 21747
+    },
+    {
+      "year": 1997,
+      "month": 3,
+      "value": 13.8465,
+      "validPixelSamples": 18559
+    },
+    {
+      "year": 1997,
+      "month": 5,
+      "value": 13.3245,
+      "validPixelSamples": 21773
+    },
+    {
+      "year": 1997,
+      "month": 6,
+      "value": 13.3974,
+      "validPixelSamples": 21522
+    },
+    {
+      "year": 1997,
+      "month": 10,
+      "value": 12.1086,
+      "validPixelSamples": 21514
+    },
+    {
+      "year": 1998,
+      "month": 7,
+      "value": 7.2567,
+      "validPixelSamples": 21728
+    },
+    {
+      "year": 2000,
+      "month": 4,
+      "value": 13.1994,
+      "validPixelSamples": 18025
+    },
+    {
+      "year": 2000,
+      "month": 5,
+      "value": 13.3029,
+      "validPixelSamples": 20330
+    },
+    {
+      "year": 2001,
+      "month": 4,
+      "value": 12.249,
+      "validPixelSamples": 17505
+    },
+    {
+      "year": 2001,
+      "month": 5,
+      "value": 12.5316,
+      "validPixelSamples": 19922
+    },
+    {
+      "year": 2001,
+      "month": 7,
+      "value": 6.2712,
+      "validPixelSamples": 20346
+    },
+    {
+      "year": 2001,
+      "month": 11,
+      "value": 16.4313,
+      "validPixelSamples": 21273
+    },
+    {
+      "year": 2002,
+      "month": 4,
+      "value": 13.0383,
+      "validPixelSamples": 19552
+    },
+    {
+      "year": 2003,
+      "month": 5,
+      "value": 11.4561,
+      "validPixelSamples": 21439
+    },
+    {
+      "year": 2003,
+      "month": 12,
+      "value": 12.2679,
+      "validPixelSamples": 19163
+    },
+    {
+      "year": 2004,
+      "month": 3,
+      "value": 11.1024,
+      "validPixelSamples": 19982
+    },
+    {
+      "year": 2004,
+      "month": 4,
+      "value": 0.0,
+      "validPixelSamples": 21570,
+      "reviewNote": "No water pixels were classified despite 99.05% valid-pixel coverage. Verify the imagery before interpreting zero as an empty reservoir."
+    },
+    {
+      "year": 2005,
+      "month": 1,
+      "value": 16.0551,
+      "validPixelSamples": 21077
+    },
+    {
+      "year": 2005,
+      "month": 4,
+      "value": 9.2826,
+      "validPixelSamples": 18203
+    },
+    {
+      "year": 2005,
+      "month": 5,
+      "value": 7.8939,
+      "validPixelSamples": 18421
+    },
+    {
+      "year": 2005,
+      "month": 7,
+      "value": 9.7533,
+      "validPixelSamples": 19807
+    },
+    {
+      "year": 2006,
+      "month": 4,
+      "value": 13.8042,
+      "validPixelSamples": 18266
+    },
+    {
+      "year": 2006,
+      "month": 5,
+      "value": 14.1399,
+      "validPixelSamples": 19945
+    },
+    {
+      "year": 2006,
+      "month": 10,
+      "value": 14.4513,
+      "validPixelSamples": 21375
+    },
+    {
+      "year": 2006,
+      "month": 12,
+      "value": 13.5495,
+      "validPixelSamples": 19264
+    },
+    {
+      "year": 2007,
+      "month": 3,
+      "value": 13.1724,
+      "validPixelSamples": 18162
+    },
+    {
+      "year": 2007,
+      "month": 5,
+      "value": 13.275,
+      "validPixelSamples": 21564
+    },
+    {
+      "year": 2007,
+      "month": 8,
+      "value": 12.0744,
+      "validPixelSamples": 18510
+    },
+    {
+      "year": 2007,
+      "month": 10,
+      "value": 11.3742,
+      "validPixelSamples": 17838
+    },
+    {
+      "year": 2008,
+      "month": 3,
+      "value": 14.9031,
+      "validPixelSamples": 19027
+    },
+    {
+      "year": 2008,
+      "month": 9,
+      "value": 15.336,
+      "validPixelSamples": 20906
+    },
+    {
+      "year": 2009,
+      "month": 3,
+      "value": 12.7233,
+      "validPixelSamples": 18627
+    },
+    {
+      "year": 2009,
+      "month": 4,
+      "value": 10.9368,
+      "validPixelSamples": 17621
+    },
+    {
+      "year": 2009,
+      "month": 7,
+      "value": 14.7123,
+      "validPixelSamples": 20116
+    },
+    {
+      "year": 2009,
+      "month": 12,
+      "value": 14.7474,
+      "validPixelSamples": 18880
+    },
+    {
+      "year": 2010,
+      "month": 7,
+      "value": 6.6519,
+      "validPixelSamples": 21776
+    },
+    {
+      "year": 2012,
+      "month": 12,
+      "value": 14.5953,
+      "validPixelSamples": 18711
+    },
+    {
+      "year": 2013,
+      "month": 4,
+      "value": 15.2433,
+      "validPixelSamples": 20625
+    },
+    {
+      "year": 2013,
+      "month": 5,
+      "value": 13.2417,
+      "validPixelSamples": 19724
+    },
+    {
+      "year": 2014,
+      "month": 2,
+      "value": 16.2324,
+      "validPixelSamples": 21776
+    },
+    {
+      "year": 2014,
+      "month": 11,
+      "value": 8.7606,
+      "validPixelSamples": 17626
+    },
+    {
+      "year": 2015,
+      "month": 3,
+      "value": 13.0041,
+      "validPixelSamples": 19278
+    },
+    {
+      "year": 2015,
+      "month": 5,
+      "value": 12.4416,
+      "validPixelSamples": 21727
+    },
+    {
+      "year": 2015,
+      "month": 7,
+      "value": 10.7649,
+      "validPixelSamples": 20342
+    },
+    {
+      "year": 2015,
+      "month": 10,
+      "value": 13.9401,
+      "validPixelSamples": 21469
+    },
+    {
+      "year": 2016,
+      "month": 2,
+      "value": 16.9749,
+      "validPixelSamples": 21776
+    },
+    {
+      "year": 2016,
+      "month": 5,
+      "value": 10.8936,
+      "validPixelSamples": 18557
+    },
+    {
+      "year": 2016,
+      "month": 7,
+      "value": 9.0486,
+      "validPixelSamples": 17791
+    },
+    {
+      "year": 2017,
+      "month": 2,
+      "value": 13.7871,
+      "validPixelSamples": 18920
+    },
+    {
+      "year": 2017,
+      "month": 4,
+      "value": 13.4136,
+      "validPixelSamples": 19262
+    },
+    {
+      "year": 2018,
+      "month": 4,
+      "value": 13.2921,
+      "validPixelSamples": 18384
+    },
+    {
+      "year": 2019,
+      "month": 5,
+      "value": 8.802,
+      "validPixelSamples": 21708
+    },
+    {
+      "year": 2019,
+      "month": 6,
+      "value": 4.9122,
+      "validPixelSamples": 18469
+    },
+    {
+      "year": 2019,
+      "month": 12,
+      "value": 14.6052,
+      "validPixelSamples": 21738
+    },
+    {
+      "year": 2020,
+      "month": 1,
+      "value": 16.0668,
+      "validPixelSamples": 21223
+    },
+    {
+      "year": 2020,
+      "month": 2,
+      "value": 12.528,
+      "validPixelSamples": 17899
+    },
+    {
+      "year": 2020,
+      "month": 3,
+      "value": 12.7548,
+      "validPixelSamples": 18356
+    },
+    {
+      "year": 2020,
+      "month": 5,
+      "value": 11.6415,
+      "validPixelSamples": 18336
+    },
+    {
+      "year": 2020,
+      "month": 7,
+      "value": 9.7191,
+      "validPixelSamples": 18427
+    },
+    {
+      "year": 2020,
+      "month": 9,
+      "value": 8.2233,
+      "validPixelSamples": 18297
+    },
+    {
+      "year": 2020,
+      "month": 12,
+      "value": 17.3538,
+      "validPixelSamples": 21716
+    },
+    {
+      "year": 2021,
+      "month": 2,
+      "value": 17.316,
+      "validPixelSamples": 21775
+    },
+    {
+      "year": 2021,
+      "month": 5,
+      "value": 12.1572,
+      "validPixelSamples": 18446
+    },
+    {
+      "year": 2021,
+      "month": 6,
+      "value": 10.638,
+      "validPixelSamples": 17893
+    },
+    {
+      "year": 2021,
+      "month": 9,
+      "value": 13.4712,
+      "validPixelSamples": 18277
+    },
+    {
+      "year": 2022,
+      "month": 10,
+      "value": 11.4957,
+      "validPixelSamples": 21581
+    },
+    {
+      "year": 2023,
+      "month": 2,
+      "value": 17.0883,
+      "validPixelSamples": 21534
+    },
+    {
+      "year": 2023,
+      "month": 4,
+      "value": 14.7114,
+      "validPixelSamples": 21335
+    },
+    {
+      "year": 2023,
+      "month": 12,
+      "value": 14.4144,
+      "validPixelSamples": 18525
+    },
+    {
+      "year": 2024,
+      "month": 1,
+      "value": 15.8454,
+      "validPixelSamples": 20155
+    },
+    {
+      "year": 2024,
+      "month": 3,
+      "value": 16.65,
+      "validPixelSamples": 21776
+    },
+    {
+      "year": 2024,
+      "month": 6,
+      "value": 9.7713,
+      "validPixelSamples": 19960
+    },
+    {
+      "year": 2024,
+      "month": 8,
+      "value": 11.9016,
+      "validPixelSamples": 21344
+    },
+    {
+      "year": 2025,
+      "month": 4,
+      "value": 16.7553,
+      "validPixelSamples": 21550
+    },
+    {
+      "year": 2025,
+      "month": 5,
+      "value": 15.4494,
+      "validPixelSamples": 20614
+    },
+    {
+      "year": 2026,
+      "month": 4,
+      "value": 12.6225,
+      "validPixelSamples": 19328
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "value": 7.9398,
+      "validPixelSamples": 21697
+    },
+    {
+      "year": 2026,
+      "month": 10,
+      "value": 14.8131,
+      "validPixelSamples": 19628
+    }
+  ]
+}

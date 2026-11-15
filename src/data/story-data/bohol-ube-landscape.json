@@ -1,0 +1,2313 @@
+{
+  "locationId": "bohol-ube-landscape",
+  "metric": "monthly_mean_ndvi",
+  "unit": "NDVI, unitless",
+  "source": {
+    "mission": "Terra MODIS",
+    "product": "MOD13Q1.061 _250m_16_days_NDVI, NASA ORNL MODIS Web Service point subset at Bohol central landscape sample, Central Visayas, monthly mean of good- and marginal-reliability 16-day observations",
+    "url": "https://modis.ornl.gov/rst/"
+  },
+  "references": [
+    {
+      "mission": "NASA Terra MODIS",
+      "product": "MOD13Q1 Version 6.1 product documentation",
+      "url": "https://doi.org/10.5067/MODIS/MOD13Q1.061"
+    },
+    {
+      "mission": "Inquirer.net",
+      "product": "Amid drought, Bohol farmers growing yam, not rice",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSUg5MzI5YlB5OEFGT2N2azBkWFNMYno3Skt2ejRCTUNHRExlWnh2WmdCTXBnM1RndW9CMi1NT2VzbFIwZTRXMFo1VlplTmFTQWw2ZWFwcVQ0TE5kc01keTZ5NmF0LVlGbGhjZDgzMFAwdGJXZHNudnpHM0FyVVppR0F0ZklfY2VmS3FSddIBkgFBVV95cUxOMEZSNTAydjNiTWM2LXFwdXRjUjVLZzlmSmRlUFBUbWx5N01qcnRidkNuZm95dnBFNUJ1OGQyaDdXNnpiSldNRVFtRWwwMmtxdDA0Qnl6QnNGbGVxd2lFWHFqNjZWN3pyTWE0cWtOU1IxSTZraFNXOFVTTk83WGRxck1XVnRYd29wc1JZOXY5QTIzQQ?oc=5"
+    },
+    {
+      "mission": "Inquirer.net",
+      "product": "Bohol wants to preserve its link to 'ubi kinampay'",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQc0pjN19uLU5VMENzVXhHS3E5azJ4cXRNS2xuNldIWnZ3UFN5TmJQbW5WOHlFUEw0NGFNbmlmendISkJsSjh6Vlppc0tPTG9vb0xSNnVUVnNqYnVFczNJOWRmMF9FcUIzWU8wMWtKSUJSQ2VhU0xXZ2NyaG1ObTFRUGdZcjlhYlZFdmxoUlZCNNIBlAFBVV95cUxOS1pKTnpPdnhCQktaSXNzYjc2MEhkdHFMSnpSeHJISUtLZWJSY2Y2SDZPTmdzR1h6TjdSM1pFWUNueHVQT09yMzVUNVlObHZJMkE0WGhLMkdNMGE5cndSUVNtX0pJZ3VyVjlRMklaaWJjWHY5blh6LXNtd1QxVU1QR3QxYllWbTJBOW5UR0RNMTktU3Bn?oc=5"
+    },
+    {
+      "mission": "BusinessWorld Online",
+      "product": "Ube crop expansion kicks off with distribution of planting materials to Bohol, Leyte farmers",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVlFEbUdQOTN5WkY2bVhodUViNnhVQjVENGhhc1hweVA0QnJwNzF1NnNWOXB6OXJvNEVnSUVyX25iQmt2U3M1cmJzQV9MUncyRzZDZHIyOU9pQV95TDl0OUItOFVLTTRBQTJiUTlDV2VRdHpCRlg5OF90Q2FSNVh3TnhuMDdYOUh1Q2dTbDFsLUFxNEN6T1VKRGlnTTRQUDhHRThZaFZkVXJRMDFXd09IWi1LZ2FyNWRfbEZ1bW8tTm1MYktCUWVRNWRXWUZfamMxT3ZJS21VR2FLRnM?oc=5"
+    },
+    {
+      "mission": "The Manila Times via Newswav",
+      "product": "Agog over ube (2025 production and harvested-area statistics, citing PSA)",
+      "url": "https://newswav.com/article/agog-over-ube-A2606_oURFI4"
+    }
+  ],
+  "scaleNote": "This is a 250 m Terra MODIS NDVI point sample in central Bohol, averaged from good- or marginal-reliability 16-day observations by month. It is a regional landscape sample, not a verified ube field or crop-yield measurement. Bohol reporting documents yam cultivation and the Ubi Kinampay tradition at province scale; the sampled pixel's crop is not identified. NDVI measures vegetation greenness, not yam yield, harvested tubers, or damage. National production statistics are a separate measure and cannot be inferred from this point sample.",
+  "qualityPolicy": {
+    "acceptedPixelReliability": [
+      0,
+      1
+    ],
+    "marginalObservationsRetained": true,
+    "monthlyCounts": "Each monthly record stores accepted good and marginal 16-day composite counts used in its mean.",
+    "countLabel": "GOOD / MARGINAL 16-DAY COMPOSITES"
+  },
+  "continuity": {
+    "maximumInterpolatedGapMonths": 2,
+    "method": "Linear interpolation of interior gaps up to two months for sonification only; source observations remain unchanged. The chart uses dotted links across all missing intervals."
+  },
+  "series": [
+    {
+      "year": 2000,
+      "month": 3,
+      "value": 0.5564,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2000,
+      "month": 4,
+      "value": 0.6567,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2000,
+      "month": 5,
+      "value": 0.7169,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2000,
+      "month": 6,
+      "value": 0.6502,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2000,
+      "month": 7,
+      "value": 0.75335,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2000,
+      "month": 8,
+      "value": 0.6717,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2000,
+      "month": 9,
+      "value": 0.632,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2000,
+      "month": 11,
+      "value": 0.7881,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2001,
+      "month": 3,
+      "value": 0.6172,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2001,
+      "month": 4,
+      "value": 0.6473,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2001,
+      "month": 5,
+      "value": 0.67805,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2001,
+      "month": 6,
+      "value": 0.6765,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2001,
+      "month": 7,
+      "value": 0.6597,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2001,
+      "month": 8,
+      "value": 0.7167,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2001,
+      "month": 9,
+      "value": 0.7479,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2002,
+      "month": 1,
+      "value": 0.71735,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2002,
+      "month": 2,
+      "value": 0.731,
+      "qualityCounts": {
+        "goodSamples": 2,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2002,
+      "month": 3,
+      "value": 0.6344,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2002,
+      "month": 4,
+      "value": 0.5322,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2002,
+      "month": 5,
+      "value": 0.5832,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2002,
+      "month": 6,
+      "value": 0.6449,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2002,
+      "month": 7,
+      "value": 0.772,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2002,
+      "month": 8,
+      "value": 0.7742,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2002,
+      "month": 9,
+      "value": 0.7473,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2002,
+      "month": 10,
+      "value": 0.5535,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2002,
+      "month": 11,
+      "value": 0.8321,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2002,
+      "month": 12,
+      "value": 0.7503,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2003,
+      "month": 1,
+      "value": 0.7157,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2003,
+      "month": 2,
+      "value": 0.6729,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2003,
+      "month": 3,
+      "value": 0.69975,
+      "qualityCounts": {
+        "goodSamples": 2,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2003,
+      "month": 4,
+      "value": 0.5946,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2003,
+      "month": 5,
+      "value": 0.6967,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2003,
+      "month": 7,
+      "value": 0.71925,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2003,
+      "month": 8,
+      "value": 0.79175,
+      "qualityCounts": {
+        "goodSamples": 2,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2003,
+      "month": 11,
+      "value": 0.70125,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2004,
+      "month": 1,
+      "value": 0.8269,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2004,
+      "month": 2,
+      "value": 0.76245,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2004,
+      "month": 3,
+      "value": 0.5852,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2004,
+      "month": 5,
+      "value": 0.6166,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2004,
+      "month": 7,
+      "value": 0.6831,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2004,
+      "month": 8,
+      "value": 0.61065,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2004,
+      "month": 9,
+      "value": 0.6684,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2004,
+      "month": 11,
+      "value": 0.6758,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2005,
+      "month": 1,
+      "value": 0.7683,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2005,
+      "month": 2,
+      "value": 0.60645,
+      "qualityCounts": {
+        "goodSamples": 2,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2005,
+      "month": 3,
+      "value": 0.5981,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2005,
+      "month": 4,
+      "value": 0.6996,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2005,
+      "month": 5,
+      "value": 0.7131,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2005,
+      "month": 6,
+      "value": 0.7543,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2005,
+      "month": 8,
+      "value": 0.71055,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2006,
+      "month": 2,
+      "value": 0.6921,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2006,
+      "month": 3,
+      "value": 0.7038,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2006,
+      "month": 4,
+      "value": 0.6013,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2006,
+      "month": 8,
+      "value": 0.74875,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2006,
+      "month": 11,
+      "value": 0.70465,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2007,
+      "month": 1,
+      "value": 0.6555,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2007,
+      "month": 2,
+      "value": 0.536,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2007,
+      "month": 3,
+      "value": 0.5776,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2007,
+      "month": 4,
+      "value": 0.5209,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2007,
+      "month": 5,
+      "value": 0.6483,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2007,
+      "month": 6,
+      "value": 0.7539,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2007,
+      "month": 7,
+      "value": 0.73515,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2007,
+      "month": 8,
+      "value": 0.9536,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2007,
+      "month": 9,
+      "value": 0.7024,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2007,
+      "month": 10,
+      "value": 0.8157,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2007,
+      "month": 11,
+      "value": 0.6383,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2008,
+      "month": 1,
+      "value": 0.8308,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2008,
+      "month": 3,
+      "value": 0.7004,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2008,
+      "month": 4,
+      "value": 0.7617,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2008,
+      "month": 5,
+      "value": 0.6487,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2008,
+      "month": 6,
+      "value": 0.7826,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2008,
+      "month": 7,
+      "value": 0.7399,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2008,
+      "month": 8,
+      "value": 0.7953,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2008,
+      "month": 9,
+      "value": 0.6936,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2008,
+      "month": 10,
+      "value": 0.769,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2008,
+      "month": 12,
+      "value": 0.6765,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2009,
+      "month": 1,
+      "value": 0.8336,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2009,
+      "month": 2,
+      "value": 0.74905,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2009,
+      "month": 3,
+      "value": 0.69115,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2009,
+      "month": 4,
+      "value": 0.6894,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2009,
+      "month": 5,
+      "value": 0.7837,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2009,
+      "month": 6,
+      "value": 0.61785,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2009,
+      "month": 7,
+      "value": 0.8073,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2009,
+      "month": 9,
+      "value": 0.6425,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2009,
+      "month": 11,
+      "value": 0.7412,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2009,
+      "month": 12,
+      "value": 0.7734,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2010,
+      "month": 1,
+      "value": 0.8481,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2010,
+      "month": 2,
+      "value": 0.7883,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2010,
+      "month": 3,
+      "value": 0.7567,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2010,
+      "month": 4,
+      "value": 0.60765,
+      "qualityCounts": {
+        "goodSamples": 2,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2010,
+      "month": 5,
+      "value": 0.56525,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2010,
+      "month": 6,
+      "value": 0.7554,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2010,
+      "month": 7,
+      "value": 0.3217,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2010,
+      "month": 8,
+      "value": 0.6943,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2010,
+      "month": 9,
+      "value": 0.8057,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2010,
+      "month": 11,
+      "value": 0.7766,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2011,
+      "month": 1,
+      "value": 0.7686,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2011,
+      "month": 2,
+      "value": 0.73045,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2011,
+      "month": 4,
+      "value": 0.7553,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2011,
+      "month": 5,
+      "value": 0.8269,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2011,
+      "month": 6,
+      "value": 0.739,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2011,
+      "month": 9,
+      "value": 0.197,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2011,
+      "month": 10,
+      "value": 0.8181,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2011,
+      "month": 11,
+      "value": 0.7122,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2011,
+      "month": 12,
+      "value": 0.79525,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2012,
+      "month": 1,
+      "value": 0.7437,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2012,
+      "month": 2,
+      "value": 0.7562,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2012,
+      "month": 3,
+      "value": 0.6219,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2012,
+      "month": 4,
+      "value": 0.68775,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2012,
+      "month": 6,
+      "value": 0.7504,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2012,
+      "month": 7,
+      "value": 0.8014,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2012,
+      "month": 8,
+      "value": 0.7611,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2012,
+      "month": 9,
+      "value": 0.7555,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2012,
+      "month": 10,
+      "value": 0.7398,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2012,
+      "month": 11,
+      "value": 0.7407,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2012,
+      "month": 12,
+      "value": 0.7919,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2013,
+      "month": 1,
+      "value": 0.5825,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2013,
+      "month": 2,
+      "value": 0.8342,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2013,
+      "month": 3,
+      "value": 0.7212,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2013,
+      "month": 4,
+      "value": 0.69525,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2013,
+      "month": 5,
+      "value": 0.7329,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2013,
+      "month": 8,
+      "value": 0.7393,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2013,
+      "month": 9,
+      "value": 0.6451,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2013,
+      "month": 10,
+      "value": 0.6971,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2013,
+      "month": 11,
+      "value": 0.8167,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2013,
+      "month": 12,
+      "value": 0.7278,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2014,
+      "month": 2,
+      "value": 0.7343,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2014,
+      "month": 3,
+      "value": 0.6851,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2014,
+      "month": 4,
+      "value": 0.7522,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2014,
+      "month": 7,
+      "value": 0.7883,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2014,
+      "month": 8,
+      "value": 0.7846,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2014,
+      "month": 9,
+      "value": 0.7721,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2015,
+      "month": 1,
+      "value": 0.8676,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2015,
+      "month": 2,
+      "value": 0.7813,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2015,
+      "month": 3,
+      "value": 0.7044,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2015,
+      "month": 4,
+      "value": 0.46475,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2015,
+      "month": 5,
+      "value": 0.72845,
+      "qualityCounts": {
+        "goodSamples": 2,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2015,
+      "month": 7,
+      "value": 0.74475,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2015,
+      "month": 8,
+      "value": 0.8198,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2015,
+      "month": 11,
+      "value": 0.8046,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2015,
+      "month": 12,
+      "value": 0.5982,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2016,
+      "month": 1,
+      "value": 0.69605,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2016,
+      "month": 2,
+      "value": 0.7262,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2016,
+      "month": 3,
+      "value": 0.69945,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2016,
+      "month": 4,
+      "value": 0.6255,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2016,
+      "month": 5,
+      "value": 0.466,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2016,
+      "month": 6,
+      "value": 0.8154,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2016,
+      "month": 7,
+      "value": 0.785,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2016,
+      "month": 8,
+      "value": 0.53065,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2016,
+      "month": 9,
+      "value": 0.8078,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2016,
+      "month": 10,
+      "value": 0.7728,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2016,
+      "month": 11,
+      "value": 0.8862,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2016,
+      "month": 12,
+      "value": 0.3257,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2017,
+      "month": 1,
+      "value": 0.7313,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2017,
+      "month": 2,
+      "value": 0.6889,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2017,
+      "month": 3,
+      "value": 0.76755,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2017,
+      "month": 4,
+      "value": 0.818,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2017,
+      "month": 5,
+      "value": 0.7514,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2017,
+      "month": 6,
+      "value": 0.7295,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2017,
+      "month": 7,
+      "value": 0.7857,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2017,
+      "month": 8,
+      "value": 0.83945,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2017,
+      "month": 9,
+      "value": 0.7667,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2017,
+      "month": 12,
+      "value": 0.789,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2018,
+      "month": 1,
+      "value": 0.8057,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2018,
+      "month": 2,
+      "value": 0.7582,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2018,
+      "month": 3,
+      "value": 0.7279,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2018,
+      "month": 4,
+      "value": 0.77365,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2018,
+      "month": 5,
+      "value": 0.699,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2018,
+      "month": 6,
+      "value": 0.6649,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2018,
+      "month": 7,
+      "value": 0.7947,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2018,
+      "month": 8,
+      "value": 0.7307,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2018,
+      "month": 9,
+      "value": 0.7814,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2018,
+      "month": 10,
+      "value": 0.4538,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2018,
+      "month": 11,
+      "value": 0.75845,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2018,
+      "month": 12,
+      "value": 0.77505,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2019,
+      "month": 3,
+      "value": 0.6482,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2019,
+      "month": 4,
+      "value": 0.65115,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2019,
+      "month": 5,
+      "value": 0.7365,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2019,
+      "month": 6,
+      "value": 0.8215,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2019,
+      "month": 7,
+      "value": 0.74845,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2019,
+      "month": 8,
+      "value": 0.815,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "value": 0.8116,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2019,
+      "month": 10,
+      "value": 0.7523,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2019,
+      "month": 11,
+      "value": 0.68075,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2019,
+      "month": 12,
+      "value": 0.551,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2020,
+      "month": 1,
+      "value": 0.6968,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2020,
+      "month": 2,
+      "value": 0.7727,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2020,
+      "month": 3,
+      "value": 0.75505,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2020,
+      "month": 4,
+      "value": 0.655,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2020,
+      "month": 6,
+      "value": 0.7749,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2020,
+      "month": 9,
+      "value": 0.832,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2020,
+      "month": 10,
+      "value": 0.769,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2020,
+      "month": 12,
+      "value": 0.7025,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2021,
+      "month": 2,
+      "value": 0.8466,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2021,
+      "month": 4,
+      "value": 0.7814,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2021,
+      "month": 5,
+      "value": 0.7368,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2021,
+      "month": 6,
+      "value": 0.717,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2021,
+      "month": 7,
+      "value": 0.7771,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2021,
+      "month": 11,
+      "value": 0.7057,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2022,
+      "month": 1,
+      "value": 0.77185,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2022,
+      "month": 4,
+      "value": 0.793,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2022,
+      "month": 5,
+      "value": 0.78055,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2022,
+      "month": 6,
+      "value": 0.7891,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2022,
+      "month": 7,
+      "value": 0.7789,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2022,
+      "month": 8,
+      "value": 0.80465,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2022,
+      "month": 11,
+      "value": 0.7928,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2023,
+      "month": 2,
+      "value": 0.7923,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2023,
+      "month": 3,
+      "value": 0.73255,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2023,
+      "month": 5,
+      "value": 0.82235,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2023,
+      "month": 6,
+      "value": 0.8269,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2023,
+      "month": 7,
+      "value": 0.7576,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2023,
+      "month": 8,
+      "value": 0.7408,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2023,
+      "month": 9,
+      "value": 0.6488,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2023,
+      "month": 11,
+      "value": 0.7406,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2023,
+      "month": 12,
+      "value": 0.76185,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2024,
+      "month": 1,
+      "value": 0.8338,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2024,
+      "month": 2,
+      "value": 0.7412,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2024,
+      "month": 3,
+      "value": 0.72125,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2024,
+      "month": 4,
+      "value": 0.4792,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2024,
+      "month": 5,
+      "value": 0.6712,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2024,
+      "month": 8,
+      "value": 0.734,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2024,
+      "month": 9,
+      "value": 0.8576,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2024,
+      "month": 10,
+      "value": 0.806,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 2
+      }
+    },
+    {
+      "year": 2024,
+      "month": 11,
+      "value": 0.7287,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2025,
+      "month": 1,
+      "value": 0.7934,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2025,
+      "month": 2,
+      "value": 0.7826,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2025,
+      "month": 3,
+      "value": 0.7535,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2025,
+      "month": 5,
+      "value": 0.7693,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2025,
+      "month": 6,
+      "value": 0.7729,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2025,
+      "month": 9,
+      "value": 0.7563,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2025,
+      "month": 10,
+      "value": 0.7756,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2025,
+      "month": 11,
+      "value": 0.7324,
+      "qualityCounts": {
+        "goodSamples": 2,
+        "marginalSamples": 0
+      }
+    },
+    {
+      "year": 2025,
+      "month": 12,
+      "value": 0.7301,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2026,
+      "month": 1,
+      "value": 0.8252,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2026,
+      "month": 3,
+      "value": 0.73245,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2026,
+      "month": 4,
+      "value": 0.70525,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2026,
+      "month": 5,
+      "value": 0.7145,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "value": 0.8424,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2026,
+      "month": 7,
+      "value": 0.8182,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2026,
+      "month": 8,
+      "value": 0.8071,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2026,
+      "month": 9,
+      "value": 0.7922,
+      "qualityCounts": {
+        "goodSamples": 1,
+        "marginalSamples": 1
+      }
+    },
+    {
+      "year": 2026,
+      "month": 10,
+      "value": 0.797,
+      "qualityCounts": {
+        "goodSamples": 0,
+        "marginalSamples": 1
+      }
+    }
+  ],
+  "sampling": {
+    "missingMonths": [
+      "2000-10",
+      "2000-12",
+      "2001-01",
+      "2001-02",
+      "2001-10",
+      "2001-11",
+      "2001-12",
+      "2003-06",
+      "2003-09",
+      "2003-10",
+      "2003-12",
+      "2004-04",
+      "2004-06",
+      "2004-10",
+      "2004-12",
+      "2005-07",
+      "2005-09",
+      "2005-10",
+      "2005-11",
+      "2005-12",
+      "2006-01",
+      "2006-05",
+      "2006-06",
+      "2006-07",
+      "2006-09",
+      "2006-10",
+      "2006-12",
+      "2007-12",
+      "2008-02",
+      "2008-11",
+      "2009-08",
+      "2009-10",
+      "2010-10",
+      "2010-12",
+      "2011-03",
+      "2011-07",
+      "2011-08",
+      "2012-05",
+      "2013-06",
+      "2013-07",
+      "2014-01",
+      "2014-05",
+      "2014-06",
+      "2014-10",
+      "2014-11",
+      "2014-12",
+      "2015-06",
+      "2015-09",
+      "2015-10",
+      "2017-10",
+      "2017-11",
+      "2019-01",
+      "2019-02",
+      "2020-05",
+      "2020-07",
+      "2020-08",
+      "2020-11",
+      "2021-01",
+      "2021-03",
+      "2021-08",
+      "2021-09",
+      "2021-10",
+      "2021-12",
+      "2022-02",
+      "2022-03",
+      "2022-09",
+      "2022-10",
+      "2022-12",
+      "2023-01",
+      "2023-04",
+      "2023-10",
+      "2024-06",
+      "2024-07",
+      "2024-12",
+      "2025-04",
+      "2025-07",
+      "2025-08",
+      "2026-02"
+    ]
+  }
+}

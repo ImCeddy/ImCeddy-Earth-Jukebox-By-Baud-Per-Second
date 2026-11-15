@@ -1,0 +1,9 @@
+# Python 3.11 or 3.12 is recommended. pyhdf may not have a wheel for newer Python versions.
+requests>=2.32,<3
+python-dotenv>=1.0,<2
+numpy>=2.0,<3
+tifffile>=2024.9,<2028
+netCDF4>=1.7,<2
+h5py>=3.11,<4
+xarray>=2024.10,<2027
+pyhdf>=0.11,<1
