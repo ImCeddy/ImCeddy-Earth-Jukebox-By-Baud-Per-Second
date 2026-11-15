@@ -244,14 +244,14 @@ export default function GlobeStage({ screenKey }: { screenKey: string }) {
     map.scrollZoom.enable();
     map.doubleClickZoom.enable();
     map.touchZoomRotate.enable();
-    map.once("load", () => {
+    map.once("style.load", () => {
       map.setSky({
         "sky-color": "rgba(8, 11, 14, 0)",
         "horizon-color": "#090b0d",
         "fog-color": "#090b0d",
         "sky-horizon-blend": 0.12,
       });
-      setMapLoaded(true);
+      setMapStyleReady(true);
     });
     map.once("idle", () => setImageryReady(true));
     window.setTimeout(() => setImageryReady(true), 3500);
@@ -337,19 +337,19 @@ export default function GlobeStage({ screenKey }: { screenKey: string }) {
     };
   }, []);
 
-  const [mapLoaded, setMapLoaded] = useState(false);
+  const [mapStyleReady, setMapStyleReady] = useState(false);
   const [imageryReady, setImageryReady] = useState(false);
 
   useEffect(() => {
     const map = mapRef.current;
-    if (!map || !mapLoaded || !hasViewport) return;
+    if (!map || !mapStyleReady || !hasViewport) return;
     const source = map.getSource("locations") as maplibregl.GeoJSONSource;
     source.setData(getLocationFeatures(globeState.themeId, globeState.locationId));
-  }, [globeState.themeId, globeState.locationId, globeState.stage, mapLoaded]);
+  }, [globeState.themeId, globeState.locationId, globeState.stage, mapStyleReady]);
 
   useEffect(() => {
     const map = mapRef.current;
-    if (!map || !mapLoaded) return;
+    if (!map || !mapStyleReady) return;
     if (globeState.stage !== "hub") setStarsVisible(false);
     transitionRef.current += 1;
     const transition = transitionRef.current;
@@ -400,9 +400,15 @@ export default function GlobeStage({ screenKey }: { screenKey: string }) {
 
     const duration = globeState.stage === "theme" ? 4800 : globeState.stage === "location" ? 3200 : 2400;
     const cameraOptions = { ...target, duration: reducedMotion ? 0 : duration };
-    if (reducedMotion) {
+    if (reducedMotion && globeState.stage !== "location") {
       map.jumpTo(cameraOptions);
       if (globeState.stage === "hub") setStarsVisible(true);
+    } else if (globeState.stage === "location") {
+      map.easeTo({
+        ...cameraOptions,
+        duration: reducedMotion ? 800 : duration,
+        easing: (time) => time * time * (3 - 2 * time),
+      });
     } else {
       map.flyTo({
         ...cameraOptions,
@@ -418,12 +424,12 @@ export default function GlobeStage({ screenKey }: { screenKey: string }) {
       map.stop();
       if (rotationFrameRef.current !== null) cancelAnimationFrame(rotationFrameRef.current);
     };
-  }, [globeState.stage, globeState.themeId, globeState.locationId, mapLoaded, hasViewport]);
+  }, [globeState.stage, globeState.themeId, globeState.locationId, mapStyleReady, hasViewport]);
 
   useEffect(() => {
     const map = mapRef.current;
     const location = locations.find((entry) => entry.id === globeState.locationId);
-    if (!map || !mapLoaded || globeState.stage !== "location" || !location) return;
+    if (!map || !mapStyleReady || globeState.stage !== "location" || !location) return;
     const pulse = document.createElement("div");
     pulse.className = "globe-pulse-marker";
     pulse.setAttribute("aria-hidden", "true");
@@ -432,17 +438,17 @@ export default function GlobeStage({ screenKey }: { screenKey: string }) {
       .setLngLat(location.lngLat)
       .addTo(map);
     return () => { marker.remove(); };
-  }, [globeState.stage, globeState.locationId, mapLoaded]);
+  }, [globeState.stage, globeState.locationId, mapStyleReady]);
 
   useEffect(() => {
-    if (!mapLoaded) return;
+    if (!mapStyleReady) return;
     return setMapZoomHandler((delta) => {
       const map = mapRef.current;
       if (map && getGlobeState().stage === "location" && getGlobeState().locationId) {
         map.zoomTo(map.getZoom() + delta, { duration: 350 });
       }
     });
-  }, [mapLoaded]);
+  }, [mapStyleReady]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -460,7 +466,7 @@ export default function GlobeStage({ screenKey }: { screenKey: string }) {
     return () => {
       document.removeEventListener("visibilitychange", handleVisibility);
     };
-  }, [mapLoaded]);
+  }, [mapStyleReady]);
 
   return (
     <>
