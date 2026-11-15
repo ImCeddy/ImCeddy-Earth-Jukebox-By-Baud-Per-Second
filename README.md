@@ -6,7 +6,7 @@ visualizations, Philippine place-based environmental stories, and sound.
 
 > **Try the live app:** [Earth Jukebox on Vercel](https://earth-jukebox-by-baud-per-second.vercel.app/)
 
-> **Download the Android app:** [Earth Jukebox for Android (APK)](https://github.com/ImCeddy/ImCeddy-Earth-Jukebox-By-Baud-Per-Second/raw/refs/heads/main/downloads/Earth-Jukebox-v1.0.1.apk)  
+> **Download the Android app:** [Earth Jukebox for Android (APK)](https://github.com/ImCeddy/ImCeddy-Earth-Jukebox-By-Baud-Per-Second/blob/main/Earth%20Jukebox.apk)  
 > Version 1.0.1 · Android 7.0 or later · Install instructions below
 
 ## For judges
